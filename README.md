@@ -13,6 +13,33 @@ Download or clone the repository. In KiCad 9, open the `.kicad_pro` file in the 
 
 All three MKR projects and both UNO R4 shield projects include local STEP models. The UNO R4 Bench Breakout references the standard KiCad 9 model library through `KICAD9_3DMODEL_DIR` for its 3D view.
 
+## Board gallery
+
+Select a 3D view or PCB layout to open the full-size image.
+
+### Arduino MKR
+
+| Board | 3D view | PCB layout |
+| --- | --- | --- |
+| [MKR Terminal Carrier](boards/mkr/terminal-carrier/) | [![MKR Terminal Carrier 3D view](docs/images/mkr/terminal-carrier/3d.png)](docs/images/mkr/terminal-carrier/3d.png) | [![MKR Terminal Carrier PCB layout](docs/images/mkr/terminal-carrier/layout.png)](docs/images/mkr/terminal-carrier/layout.png) |
+| [MKR Carrier ProtoShield](boards/mkr/protoshield/) | [![MKR Carrier ProtoShield 3D view](docs/images/mkr/protoshield/3d.png)](docs/images/mkr/protoshield/3d.png) | [![MKR Carrier ProtoShield PCB layout](docs/images/mkr/protoshield/layout.png)](docs/images/mkr/protoshield/layout.png) |
+| [MKR Blank Shield](boards/mkr/blank-shield/) | [![MKR Blank Shield 3D view](docs/images/mkr/blank-shield/3d.png)](docs/images/mkr/blank-shield/3d.png) | [![MKR Blank Shield PCB layout](docs/images/mkr/blank-shield/layout.png)](docs/images/mkr/blank-shield/layout.png) |
+
+<details>
+<summary>MKR Blank Shield layout with millimeter scale</summary>
+
+[![MKR Blank Shield PCB outline on the Flux millimeter grid](docs/images/mkr/blank-shield/layout-with-scale.png)](docs/images/mkr/blank-shield/layout-with-scale.png)
+
+</details>
+
+### Arduino UNO R4
+
+| Board | 3D view | PCB layout |
+| --- | --- | --- |
+| [UNO R4 Bench Breakout](boards/uno-r4/bench-breakout/) | [![UNO R4 Bench Breakout 3D view](docs/images/uno-r4/bench-breakout/3d.png)](docs/images/uno-r4/bench-breakout/3d.png) | [![UNO R4 Bench Breakout PCB layout](docs/images/uno-r4/bench-breakout/layout.png)](docs/images/uno-r4/bench-breakout/layout.png) |
+| [UNO R4 Companion Shield](boards/uno-r4/companion-shield/) | [![UNO R4 Companion Shield 3D view](docs/images/uno-r4/companion-shield/3d.png)](docs/images/uno-r4/companion-shield/3d.png) | [![UNO R4 Companion Shield PCB layout](docs/images/uno-r4/companion-shield/layout.png)](docs/images/uno-r4/companion-shield/layout.png) |
+| [UNO R4 Blank Shield](boards/uno-r4/blank-shield/) | [![UNO R4 Blank Shield 3D view](docs/images/uno-r4/blank-shield/3d.png)](docs/images/uno-r4/blank-shield/3d.png) | [![UNO R4 Blank Shield PCB layout](docs/images/uno-r4/blank-shield/layout.png)](docs/images/uno-r4/blank-shield/layout.png) |
+
 ## Source and licenses
 
 The six board directories preserve the contents of the supplied Flux-labeled KiCad project archives. The accompanying KiCad library license notices are included in their original locations.
