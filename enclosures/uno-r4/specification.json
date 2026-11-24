@@ -1,0 +1,49 @@
+{
+  "part_id": "UNO-R4-Stack",
+  "revision": "A",
+  "units": "mm",
+  "print_quantity": {
+    "base": 1,
+    "bezel": 1
+  },
+  "envelope_assembled_plastic_mm": [
+    132,
+    120,
+    43
+  ],
+  "material": "PETG suggested",
+  "scale": 1.0,
+  "xyz_datum": "Outside lower left; lower face of tray at Z=0. USB-C faces -X.",
+  "main_dimensions_mm": {
+    "base_height": 40,
+    "bezel_thickness": 3,
+    "wall": 2.8,
+    "floor": 3.2,
+    "corner_radius": 6.5,
+    "uno_support_z": 10.0,
+    "carrier_stud_head_seat_z": 3.25
+  },
+  "front_U1_fastener_offset_mm": [
+    0.35,
+    0.0
+  ],
+  "mount_interfaces": "source/interfaces.json",
+  "stack": [
+    "UNO R4 Minima or WiFi",
+    "UNO R4 Bench Breakout Rev A",
+    "Companion prototyping or blank component shield"
+  ],
+  "user_requirement": "Expose ports, wiring terminals and pin access while all three boards are stacked.",
+  "head_clearance_review": {
+    "front_nominal_screw_head_diameter": 3.8,
+    "expanded_check_diameter": 4.08,
+    "expanded_envelope_to_WiFi_DC_barrel_mm": 0.255,
+    "expanded_envelope_to_nearest_WiFi_part_mm": 0.15
+  },
+  "inspection": [
+    "All terminal approach corridors open",
+    "No PCB preloading by lower leveling nuts",
+    "Trim stud tips to \u22640.5 mm past nut",
+    "Check all actual connector housings and custom shield parts on first article"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "part_id": "UNO-R4-Stack",
+  "revision": "A",
+  "units": "mm",
+  "supplier": "In-house",
+  "material": "PETG suggested",
+  "target": "bambulab",
+  "process": "3d_printing",
+  "status": "concept",
+  "primary_upload": "fabrication/UNO-R4-Stack-Base.stl",
+  "second_component": "fabrication/UNO-R4-Stack-Bezel.stl",
+  "parameters_file": "specification.json",
+  "model_source": "source/enclosure.py",
+  "drawing_file": "drawings/UNO-R4-Stack-Assembly.pdf",
+  "geometry_report": "checks/release-geometry.json",
+  "machine_setup_file": "setup/machine-setup.json",
+  "checks": {
+    "requirements": {
+      "status": "pass",
+      "evidence": "Both host Altium mounting maps, both released shield outlines and the breakout were reviewed. All 61 screw and wire paths and bank-access envelopes were checked."
+    },
+    "geometry": {
+      "status": "pass",
+      "evidence": "Each model reopened as one valid solid and as a connected manifold STL with positive volume."
+    },
+    "export_consistency": {
+      "status": "pass",
+      "evidence": "STEP and STL bounds, mesh, signed volume and exported hashes checked for both separate parts."
+    },
+    "manufacturability": {
+      "status": "not_checked",
+      "evidence": "The CAD and section geometry fit the reference machine envelope. The local machine setup, slicer toolpaths and physical fit remain unverified."
+    },
+    "drawing": {
+      "status": "pass",
+      "evidence": "All 3 pages were rendered and reviewed. Hole positions, access windows, heights, selected fasteners and U1 offset are noted."
+    },
+    "units_revision": {
+      "status": "pass",
+      "evidence": "Each released geometry uses mm and revision A. Base and bezel both lie on print Z=0."
+    }
+  },
+  "critical_unknowns": [
+    "Physical print, installed printer profile and actual connector shell dimensions."
+  ],
+  "assumptions": [
+    "Bare host without the original plastic base.",
+    "PETG on an FDM printer as a fit prototype.",
+    "Original Rev A mating headers; use adjustment nuts to match measured stack height."
+  ],
+  "vendor_sources": [
+    {
+      "url": "https://store.bblcdn.com/s7/default/3f91ec86de1a4ce28fe8fb660b95cd3e/h2s.pdf",
+      "checked_date": "2026-11-24",
+      "evidence": "H2S 340 x 320 x 340 mm published build volume."
+    }
+  ],
+  "machine_preview": {
+    "status": "not_checked",
+    "evidence": "Specific Bambu Studio profile and toolpath not run."
+  }
+}

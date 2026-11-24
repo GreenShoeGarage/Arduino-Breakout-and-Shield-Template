@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "geometry_status": "PASS",
+  "scope": "file_geometry_only",
+  "part_id": "UNO-R4-Stack-Bezel",
+  "revision": "A",
+  "units": "mm",
+  "created_utc": "2026-11-24T20:51:38.948271+00:00",
+  "software": {
+    "cadquery": "2.7.0",
+    "ezdxf": "1.4.5"
+  },
+  "metadata": {},
+  "checks": [
+    {
+      "name": "input_solid",
+      "status": "PASS",
+      "details": {
+        "solid_count": 1,
+        "valid": true,
+        "volume_mm3": 9364.188565608849,
+        "bounding_box_mm": {
+          "min": [
+            -8.881784197001252e-16,
+            -8.881784197001252e-16,
+            0.0
+          ],
+          "max": [
+            132.0,
+            120.0,
+            3.0
+          ],
+          "size": [
+            132.0,
+            120.0,
+            3.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "step_roundtrip",
+      "status": "PASS",
+      "details": {
+        "reopened_model": {
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 9364.188565611546,
+          "bounding_box_mm": {
+            "min": [
+              -8.881784197001e-16,
+              -8.881784197001e-16,
+              0.0
+            ],
+            "max": [
+              132.0,
+              120.0,
+              3.0
+            ],
+            "size": [
+              132.0,
+              120.0,
+              3.0
+            ]
+          }
+        },
+        "comparison": {
+          "matches": true,
+          "volume_absolute_error_mm3": 2.697561285458505e-09,
+          "maximum_bound_error_mm": 2.524354896707238e-29,
+          "absolute_bound_tolerance_mm": 1e-06,
+          "absolute_volume_tolerance_mm3": 1e-06,
+          "relative_tolerance": 1e-07
+        }
+      }
+    },
+    {
+      "name": "mesh_geometry",
+      "status": "PASS",
+      "details": {
+        "settings": {
+          "linear_deflection_mm": 0.025,
+          "angular_deflection_rad": 0.12,
+          "relative_deflection": false,
+          "raw_face_vertex_count": 2616,
+          "assembled_vertex_count": 1288,
+          "seam_coordinate_grid_mm": 1e-07,
+          "maximum_shared_seam_distance_mm": 0.0,
+          "seam_note": "Only near-identical vertices from adjacent tessellated CAD faces share indices; no solid healing is performed."
+        },
+        "measurements": {
+          "vertices": 1288,
+          "triangles": 2592,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0,
+          "orientation_conflicts": 0,
+          "degenerate_triangles": 0,
+          "duplicate_triangles": 0,
+          "signed_volume_mm3": 9363.87831452872,
+          "bounding_box_mm": {
+            "min": [
+              -8.881784197001252e-16,
+              -8.881784197001252e-16,
+              0.0
+            ],
+            "max": [
+              132.0,
+              120.0,
+              3.0
+            ],
+            "size": [
+              132.0,
+              120.0,
+              3.0
+            ]
+          },
+          "basic_manifold_check_passed": true,
+          "volume_relative_error_vs_solid": 3.31316566251696e-05
+        }
+      }
+    },
+    {
+      "name": "stl_roundtrip",
+      "status": "PASS",
+      "details": {
+        "vertices": 1288,
+        "triangles": 2592,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "orientation_conflicts": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "signed_volume_mm3": 9363.878228580987,
+        "bounding_box_mm": {
+          "min": [
+            -8.881784197001252e-16,
+            -8.881784197001252e-16,
+            0.0
+          ],
+          "max": [
+            132.0,
+            120.0,
+            3.0
+          ],
+          "size": [
+            132.0,
+            120.0,
+            3.0
+          ]
+        },
+        "basic_manifold_check_passed": true
+      }
+    },
+    {
+      "name": "svg_preview",
+      "status": "PASS",
+      "details": {
+        "note": "CAD-projected isometric preview; visual inspection remains required."
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "cad/UNO-R4-Stack-Bezel_rev-A_mm.step",
+      "role": "solid_cad",
+      "bytes": 82076,
+      "sha256": "b80e37540316079d5d8b7d2a7431b0d10183afa1febf319ad133eca9334ce3a8"
+    },
+    {
+      "path": "prototypes/UNO-R4-Stack-Bezel_rev-A_mm.stl",
+      "role": "prototype_mesh",
+      "bytes": 129684,
+      "sha256": "f903a4d4a70049d67b40a39976152721b6128d11dc570f0b31ef3aadfb5a22d1"
+    },
+    {
+      "path": "previews/UNO-R4-Stack-Bezel_rev-A_mm_isometric.svg",
+      "role": "undimensioned_preview",
+      "bytes": 47182,
+      "sha256": "116e2919a813a15446c226354e75839eb6c41cfcc22ac38ef2881950bdb3f8e8"
+    }
+  ],
+  "errors": [],
+  "unchecked": [
+    "Description, feature dimensions, and fit intent against CAD and drawing.",
+    "Drawing view, dimension, tolerance, material, and revision correctness.",
+    "Current vendor material, thickness, process, bend, and minimum-feature rules.",
+    "Structural strength, fatigue, thermal behavior, and service-load suitability.",
+    "Vendor upload preview, selected services, quoted dimensions, and manufacturing acceptance.",
+    "Mesh self-intersections and local geometric deviation from CAD are not exhaustively measured; deflection settings and basic topology are checked.",
+    "STL and OBJ are unitless formats; import their coordinates as millimetres and verify scale."
+  ],
+  "model": {
+    "solid_count": 1,
+    "valid": true,
+    "volume_mm3": 9364.188565608849,
+    "bounding_box_mm": {
+      "min": [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16,
+        0.0
+      ],
+      "max": [
+        132.0,
+        120.0,
+        3.0
+      ],
+      "size": [
+        132.0,
+        120.0,
+        3.0
+      ]
+    }
+  }
+}

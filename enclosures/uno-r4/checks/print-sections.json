@@ -1,0 +1,40 @@
+{
+  "UNO-R4-Stack-Base.stl": {
+    "connected_surface_count": 1,
+    "slice_spacing_mm": 0.2,
+    "closed_sections": 200,
+    "non_closed_sections": 0,
+    "largest_section_segments": 4087,
+    "bounds_mm": [
+      [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16,
+        0.0
+      ],
+      [
+        132.0,
+        120.0,
+        40.0
+      ]
+    ]
+  },
+  "UNO-R4-Stack-Bezel.stl": {
+    "connected_surface_count": 1,
+    "slice_spacing_mm": 0.2,
+    "closed_sections": 15,
+    "non_closed_sections": 0,
+    "largest_section_segments": 1288,
+    "bounds_mm": [
+      [
+        -8.881784197001252e-16,
+        -8.881784197001252e-16,
+        0.0
+      ],
+      [
+        132.0,
+        120.0,
+        3.0
+      ]
+    ]
+  }
+}

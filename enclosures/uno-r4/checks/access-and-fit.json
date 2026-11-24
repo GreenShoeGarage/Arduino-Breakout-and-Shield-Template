@@ -1,0 +1,69 @@
+{
+  "carrier_height_range_bed_to_underside_mm": [
+    21.1,
+    24.6
+  ],
+  "carrier_swept_clearance_to_housing_mm": 1.023,
+  "blank_populated_envelope_clearance_mm": 9.0,
+  "proto_populated_envelope_clearance_mm": 9.0,
+  "blank_exposed_solder_and_proto_positions": 61,
+  "proto_exposed_solder_and_proto_positions": 241,
+  "host_wifi_bounds_mm": [
+    6.04,
+    33.0,
+    7.0037,
+    76.58,
+    86.34,
+    21.5037
+  ],
+  "host_wifi_solids": 332,
+  "host_exact_collision_candidates": 4,
+  "host_head_exact_collision_candidates": 1,
+  "three_mount_head_envelope_diameter_mm": 4.08,
+  "reset_probe_diameter_mm": 2.7,
+  "top_terminal_screwdriver_tests": 61,
+  "terminal_wire_entry_tests": 61,
+  "cable_plug_envelopes": [
+    "USB-C (20 x 10 mm plug body)",
+    "barrel (17 mm plug-body envelope)",
+    "east low Qwiic cable path (8 x 5 mm)"
+  ],
+  "carrier_and_host_mounts_mm": {
+    "uno": [
+      [
+        21.97,
+        35.54
+      ],
+      [
+        74.04,
+        68.56
+      ],
+      [
+        74.04,
+        40.62
+      ]
+    ],
+    "breakout": [
+      [
+        22.2,
+        96.5
+      ],
+      [
+        81.2,
+        104.5
+      ],
+      [
+        19.6,
+        21.65
+      ],
+      [
+        81.2,
+        15.3
+      ]
+    ]
+  },
+  "upper_headers_and_auxiliary_banks": "All 9 terminal and 8 top-side connector courtyards clear on both variants",
+  "status": "pass",
+  "machine_sliced": false,
+  "printed": false
+}

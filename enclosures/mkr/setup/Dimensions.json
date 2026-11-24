@@ -1,0 +1,127 @@
+{
+  "revision": "A",
+  "outside_xy": [
+    -9,
+    -20,
+    89,
+    110
+  ],
+  "corner_r": 5.5,
+  "floor": 2.4,
+  "wall": 2.4,
+  "rim_z": 34.0,
+  "lid_thickness": 3.2,
+  "carrier_under_z": 8.4,
+  "carrier_thickness": 1.6,
+  "face_gap": 11.05,
+  "shield_thickness": 1.6,
+  "board_mounts": [
+    [
+      4,
+      4
+    ],
+    [
+      76,
+      4
+    ],
+    [
+      4,
+      52
+    ],
+    [
+      76,
+      52
+    ]
+  ],
+  "lid_mounts": [
+    [
+      -3,
+      -14
+    ],
+    [
+      83,
+      -14
+    ],
+    [
+      -3,
+      104
+    ],
+    [
+      83,
+      104
+    ]
+  ],
+  "pcb_boss_radius": 3.4,
+  "lid_boss_radius": 4.5,
+  "pilot_d": 2.6,
+  "lid_hole_d": 3.55,
+  "front_open_x": [
+    18,
+    62
+  ],
+  "front_sill_z": 11.0,
+  "side_open_y": [
+    -5.5,
+    51.4
+  ],
+  "side_sill_z": 8.8,
+  "rear_open_x": [
+    26,
+    54
+  ],
+  "rear_sill_z": 22.0,
+  "front_window": [
+    -2.2,
+    -15.5,
+    82.2,
+    51.35
+  ],
+  "rear_window": [
+    -1.2,
+    55.25,
+    81.2,
+    101.8
+  ],
+  "ledge_x": [
+    [
+      -2.2,
+      1.3
+    ],
+    [
+      78.7,
+      82.2
+    ]
+  ],
+  "ledge_y": [
+    [
+      65,
+      76
+    ],
+    [
+      91,
+      98
+    ]
+  ],
+  "ledge_clearance": 0.45,
+  "key_x": [
+    [
+      -6.23,
+      -4.6
+    ],
+    [
+      84.6,
+      86.23
+    ]
+  ],
+  "key_y": [
+    [
+      57,
+      65
+    ],
+    [
+      88,
+      96
+    ]
+  ],
+  "key_drop": 2.6
+}

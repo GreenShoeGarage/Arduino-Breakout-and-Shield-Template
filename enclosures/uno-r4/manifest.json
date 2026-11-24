@@ -1,0 +1,201 @@
+{
+  "archive_is_supplier_upload": false,
+  "assumptions": [
+    "Bare host without the original plastic base.",
+    "PETG on an FDM printer as a fit prototype.",
+    "Original Rev A mating headers; use adjustment nuts to match measured stack height."
+  ],
+  "checks": {
+    "drawing": {
+      "evidence": "All 3 pages were rendered and reviewed. Hole positions, access windows, heights, selected fasteners and U1 offset are noted.",
+      "status": "pass"
+    },
+    "export_consistency": {
+      "evidence": "STEP and STL bounds, mesh, signed volume and exported hashes checked for both separate parts.",
+      "status": "pass"
+    },
+    "geometry": {
+      "evidence": "Each model reopened as one valid solid and as a connected manifold STL with positive volume.",
+      "status": "pass"
+    },
+    "manufacturability": {
+      "evidence": "The CAD and section geometry fit the reference machine envelope. The local machine setup, slicer toolpaths and physical fit remain unverified.",
+      "status": "not_checked"
+    },
+    "requirements": {
+      "evidence": "Both host Altium mounting maps, both released shield outlines and the breakout were reviewed. All 61 screw and wire paths and bank-access envelopes were checked.",
+      "status": "pass"
+    },
+    "units_revision": {
+      "evidence": "Each released geometry uses mm and revision A. Base and bezel both lie on print Z=0.",
+      "status": "pass"
+    }
+  },
+  "critical_unknowns": [
+    "Physical print, installed printer profile and actual connector shell dimensions."
+  ],
+  "drawing_file": "drawings/UNO-R4-Stack-Assembly.pdf",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "dea53c385d13345be2db5622e1b6d0a00bddbd60489bdbe349c708436595404c",
+      "size_bytes": 5190
+    },
+    {
+      "path": "cad/UNO-R4-Stack-Base.step",
+      "sha256": "9c9ab4c42a3b8a2c6331529fd3e21ee183bd39392b7bbc20bd6a225fac43cac3",
+      "size_bytes": 442571
+    },
+    {
+      "path": "cad/UNO-R4-Stack-Bezel.step",
+      "sha256": "b80e37540316079d5d8b7d2a7431b0d10183afa1febf319ad133eca9334ce3a8",
+      "size_bytes": 82076
+    },
+    {
+      "path": "checks/Base-geometry.json",
+      "sha256": "ee68f3117c057df6b1ce584a20009c00d11e3d86760da37a6cd38df172ae0f77",
+      "size_bytes": 5826
+    },
+    {
+      "path": "checks/Bezel-geometry.json",
+      "sha256": "67b74ba9d38495368791b7f4d1d1f9c70dcfb0e366f10a2f60d74f0a65c6e37e",
+      "size_bytes": 5742
+    },
+    {
+      "path": "checks/access-and-fit.json",
+      "sha256": "165832c790ea655a6709c4dbc105c702602e72eb3e23ffe6c05b8b3b32a760f2",
+      "size_bytes": 1423
+    },
+    {
+      "path": "checks/print-sections.json",
+      "sha256": "71f86824624f02395f612612eafd8306729b98661df9db4482031a2c59a9e475",
+      "size_bytes": 742
+    },
+    {
+      "path": "checks/release-geometry.json",
+      "sha256": "922b6e9cd3491365ebbf0f71622ae70d78d694050450eaec381217c89e1d681d",
+      "size_bytes": 1268
+    },
+    {
+      "path": "drawings/UNO-R4-Stack-Assembly.pdf",
+      "sha256": "b238af439acbeb31b630641c11a32f9eff0e63598b56a536864ffa0903985c30",
+      "size_bytes": 2838231
+    },
+    {
+      "path": "fabrication/UNO-R4-Stack-Base.stl",
+      "sha256": "c2b0d67d8a68fe66224a32dc136705abd6dc92ac14f6d3cbcef66e534527026d",
+      "size_bytes": 774684
+    },
+    {
+      "path": "fabrication/UNO-R4-Stack-Bezel.stl",
+      "sha256": "f903a4d4a70049d67b40a39976152721b6128d11dc570f0b31ef3aadfb5a22d1",
+      "size_bytes": 129684
+    },
+    {
+      "path": "previews/Stack-installed.png",
+      "sha256": "eec36d97f3a920f8f52992e4684c4268ef829db113884f0ec93969e6aaa44e14",
+      "size_bytes": 1458666
+    },
+    {
+      "path": "previews/Tray-interior.png",
+      "sha256": "2e523ac8728619718295d0fec3d40fa5e4e3718ada8eb4fc34ca388e9ab78a22",
+      "size_bytes": 1245225
+    },
+    {
+      "path": "release.json",
+      "sha256": "edea07df6f97f360437b1e12de1e60a6f7d28005f8318493360ff1a1f3b21a3b",
+      "size_bytes": 2426
+    },
+    {
+      "path": "setup/machine-setup.json",
+      "sha256": "2536120bb9d4d5a8c5e9ce5a7a68a1cfbf0daffec0fc5e36db627cd039de023e",
+      "size_bytes": 758
+    },
+    {
+      "path": "source/cad_bundle.py",
+      "sha256": "42bfb6e5579bd5954f5a8a60288c48bd509b1182478bf7c7ae90cd93820e8844",
+      "size_bytes": 26344
+    },
+    {
+      "path": "source/check_print_sections.py",
+      "sha256": "92967f2a292be29016074cce9264adb6c445a8b69ff84f950e01904ba119e725",
+      "size_bytes": 1741
+    },
+    {
+      "path": "source/check_stack.py",
+      "sha256": "07f2097e8959e9ed745ec98727be99d7e558be6199a9509d8894266b07482d87",
+      "size_bytes": 7545
+    },
+    {
+      "path": "source/enclosure.py",
+      "sha256": "97b397a9202b5ef59442916a97ce7785330a83e8f662451aae377c1286ebf96e",
+      "size_bytes": 4627
+    },
+    {
+      "path": "source/interfaces.json",
+      "sha256": "38ea73493715f0856bb7bb38bf1375926ef81978f050bc08664341f6213d9a91",
+      "size_bytes": 50743
+    },
+    {
+      "path": "specification.json",
+      "sha256": "cd0ed927df00fad9d3972c67c246654b4b112de795fc9165b32f68a778637af2",
+      "size_bytes": 1344
+    }
+  ],
+  "geometry_report": "checks/release-geometry.json",
+  "geometry_report_scope": "unspecified",
+  "geometry_report_unchecked": [
+    "Actual slicer profiles, printer calibration, actual hardware and plug fit."
+  ],
+  "machine_preview": {
+    "evidence": "Specific Bambu Studio profile and toolpath not run.",
+    "status": "not_checked"
+  },
+  "machine_setup": {
+    "bridge_review": "Keep the 5.85 mm side-entry captive nut roofs free from trapped supports; use actual printer bridging settings.",
+    "filament": "PETG suggested",
+    "infill_percent": 20,
+    "minimum_bed_xy_each_mm": [
+      132,
+      120
+    ],
+    "model": "H2S reference bed",
+    "nominal_machine_envelope_mm": [
+      340,
+      320,
+      340
+    ],
+    "orientation": "both as exported, independent parts, millimeter coordinates; base floor on bed",
+    "physical_print_verified": false,
+    "process": "3d_printing",
+    "profile_verified": false,
+    "reference_model": "Bambu Lab H2S or compatible FDM printer",
+    "setup_guide": "drawings/UNO-R4-Stack-Assembly.pdf",
+    "suggested_layer_height_mm": 0.2,
+    "suggested_nozzle_mm": 0.4,
+    "target": "bambulab",
+    "walls": 4
+  },
+  "machine_setup_file": "setup/machine-setup.json",
+  "material": "PETG suggested",
+  "model_source": "source/enclosure.py",
+  "parameters_file": "specification.json",
+  "part_id": "UNO-R4-Stack",
+  "primary_upload": "fabrication/UNO-R4-Stack-Base.stl",
+  "process": "3d_printing",
+  "release_notice": "Concept package; unresolved checks or assumptions may remain. No fabrication readiness is claimed.",
+  "revision": "A",
+  "schema_version": 2,
+  "status": "concept",
+  "supplier": "In-house",
+  "target": "bambulab",
+  "units": "mm",
+  "validation_scope": "Package structure, declared check evidence, and geometry-report file hashes. This tool does not independently validate engineering, CAD, drawings, supplier acceptance, slicing, toolpaths, or machine operation.",
+  "vendor_sources": [
+    {
+      "checked_date": "2026-11-24",
+      "evidence": "H2S 340 x 320 x 340 mm published build volume.",
+      "url": "https://store.bblcdn.com/s7/default/3f91ec86de1a4ce28fe8fb660b95cd3e/h2s.pdf"
+    }
+  ]
+}

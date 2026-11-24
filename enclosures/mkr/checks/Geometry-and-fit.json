@@ -1,0 +1,193 @@
+{
+  "units": "mm",
+  "outputs": {
+    "MKR-Stack-Base": {
+      "triangles": 11660,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        98.0,
+        130.0,
+        34.0
+      ],
+      "signed_volume_mm3": 63459.147,
+      "watertight": true,
+      "consistently_oriented": true,
+      "connected_mesh_shells": 1,
+      "exact_solid_volume_mm3": 63463.873,
+      "STEP_solid_count": 1
+    },
+    "MKR-Stack-Access-Lid": {
+      "triangles": 4504,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        98.0,
+        130.0,
+        5.8
+      ],
+      "signed_volume_mm3": 9757.554,
+      "watertight": true,
+      "consistently_oriented": true,
+      "connected_mesh_shells": 1,
+      "exact_solid_volume_mm3": 9757.633,
+      "STEP_solid_count": 1
+    },
+    "MKR-Stack-Covered-Lid": {
+      "triangles": 4052,
+      "bounds_min_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_mm": [
+        98.0,
+        130.0,
+        5.8
+      ],
+      "signed_volume_mm3": 22025.666,
+      "watertight": true,
+      "consistently_oriented": true,
+      "connected_mesh_shells": 1,
+      "exact_solid_volume_mm3": 22025.757,
+      "STEP_solid_count": 1
+    }
+  },
+  "STEP_intersection_volume_mm3": {
+    "carrier": {
+      "MKR-Stack-Base": 0,
+      "MKR-Stack-Access-Lid": 0,
+      "MKR-Stack-Covered-Lid": 0
+    },
+    "proto": {
+      "MKR-Stack-Base": 0,
+      "MKR-Stack-Access-Lid": 0,
+      "MKR-Stack-Covered-Lid": 0
+    },
+    "blank": {
+      "MKR-Stack-Base": 0,
+      "MKR-Stack-Access-Lid": 0,
+      "MKR-Stack-Covered-Lid": 0
+    }
+  },
+  "corridor_checks_in_order_base_access_covered": {
+    "Arduino module envelope": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "USB plug and straight cable": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "LiPo plug/lead leftward exit": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ESLOV plug/lead rightward exit": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Reset button top access": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "terminal screwdriver": {
+      "independent_corridors": 28,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "left field wire": {
+      "independent_corridors": 14,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "right field wire": {
+      "independent_corridors": 14,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "carrier male header / shield interface": {
+      "independent_corridors": 28,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Arduino main header": {
+      "independent_corridors": 28,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ProtoShield signal land": {
+      "independent_corridors": 28,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    },
+    "rear cable notch": {
+      "independent_corridors": 1,
+      "common_volume_mm3": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "signal_and_screw_paths": {
+    "screw_heads": 28,
+    "side_wire_routes": 28,
+    "outer_header_positions": 28,
+    "Arduino_header_positions": 28,
+    "ProtoShield_signal_lands": 28
+  },
+  "rear_access_lid": "Entire 76 x 42 blank work area and 25 x 7 proto grid have overhead access",
+  "covered_lid_nominal_headroom_above_shield_mm": 11.35,
+  "actual_material_and_printed_fit": "not measured",
+  "mount_assumption": "Rev A carrier, one Rev A shield and nominal 11.05 mm facing PCB gap",
+  "source_STEP_hashes": {
+    "carrier": "b502b0db5a3b23a88e34acc301ab5577414e9c2fadb1542e8ced7f8809557c72",
+    "proto": "1f5bfc105186a8dd4c86227ff5758f2a600b6813881b730514df495f9f16e999",
+    "blank": "9cc5feae490dbe4f6580ebbcfcf0082f8b422a10afc663cf9241d56ec7d38193"
+  }
+}

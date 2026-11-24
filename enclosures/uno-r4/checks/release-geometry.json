@@ -1,0 +1,45 @@
+{
+  "units": "mm",
+  "part_id": "UNO-R4-Stack",
+  "revision": "A",
+  "geometry_status": "PASS",
+  "files": [
+    {
+      "path": "fabrication/UNO-R4-Stack-Base.stl",
+      "bytes": 774684,
+      "sha256": "c2b0d67d8a68fe66224a32dc136705abd6dc92ac14f6d3cbcef66e534527026d"
+    },
+    {
+      "path": "fabrication/UNO-R4-Stack-Bezel.stl",
+      "bytes": 129684,
+      "sha256": "f903a4d4a70049d67b40a39976152721b6128d11dc570f0b31ef3aadfb5a22d1"
+    },
+    {
+      "path": "cad/UNO-R4-Stack-Base.step",
+      "bytes": 442571,
+      "sha256": "9c9ab4c42a3b8a2c6331529fd3e21ee183bd39392b7bbc20bd6a225fac43cac3"
+    },
+    {
+      "path": "cad/UNO-R4-Stack-Bezel.step",
+      "bytes": 82076,
+      "sha256": "b80e37540316079d5d8b7d2a7431b0d10183afa1febf319ad133eca9334ce3a8"
+    }
+  ],
+  "checks": [
+    {
+      "name": "two STL connected components individually validated",
+      "status": "PASS"
+    },
+    {
+      "name": "215 closed horizontal sections across both separate STL files",
+      "status": "PASS"
+    },
+    {
+      "name": "61 terminal screws and wire approach paths plus board, cable, probe and screw head clearance",
+      "status": "PASS"
+    }
+  ],
+  "unchecked": [
+    "Actual slicer profiles, printer calibration, actual hardware and plug fit."
+  ]
+}

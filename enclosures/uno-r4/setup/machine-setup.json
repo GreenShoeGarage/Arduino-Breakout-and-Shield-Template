@@ -1,0 +1,25 @@
+{
+  "target": "bambulab",
+  "reference_model": "Bambu Lab H2S or compatible FDM printer",
+  "model": "H2S reference bed",
+  "process": "3d_printing",
+  "suggested_nozzle_mm": 0.4,
+  "suggested_layer_height_mm": 0.2,
+  "walls": 4,
+  "infill_percent": 20,
+  "filament": "PETG suggested",
+  "orientation": "both as exported, independent parts, millimeter coordinates; base floor on bed",
+  "bridge_review": "Keep the 5.85 mm side-entry captive nut roofs free from trapped supports; use actual printer bridging settings.",
+  "profile_verified": false,
+  "physical_print_verified": false,
+  "nominal_machine_envelope_mm": [
+    340,
+    320,
+    340
+  ],
+  "minimum_bed_xy_each_mm": [
+    132,
+    120
+  ],
+  "setup_guide": "drawings/UNO-R4-Stack-Assembly.pdf"
+}
