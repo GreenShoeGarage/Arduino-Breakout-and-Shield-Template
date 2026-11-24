@@ -7,16 +7,6 @@ Six PCB designs from Green Shoe Garage cover two Arduino families. Each family i
 | Arduino MKR | [MKR Terminal Carrier](boards/mkr/terminal-carrier/) breaks out the two 14-pin rows, using the MKR WiFi 1010 as its reference. | [MKR Carrier ProtoShield](boards/mkr/protoshield/) has a 7 × 25 prototyping grid. Its underside sockets J1 and J2 mate with carrier headers J3 and J4, respectively. | [MKR Blank Shield](boards/mkr/blank-shield/) leaves the center open for component footprints and routing. It retains the two 14-pin underside sockets and two M3 mounting holes. |
 | Arduino UNO R4 | [UNO R4 Bench Breakout](boards/uno-r4/bench-breakout/) exposes the standard headers and ICSP, with auxiliary banks marked for the WiFi and Minima variants. | [UNO R4 Companion Shield](boards/uno-r4/companion-shield/) has underside sockets for the breakout headers, labeled solder rows, and a 12 × 15 prototyping grid. | [UNO R4 Blank Shield](boards/uno-r4/blank-shield/) leaves the prototyping area open for component footprints and routing. It retains the nine underside socket banks and their labeled solder rows. |
 
-## Stack enclosures
-
-Both enclosures accept the prototyping shield or blank shield for their matching board family. The dimensions below are nominal. Both designs await a physical fit test.
-
-| MKR stack enclosure | UNO R4 stack enclosure |
-| --- | --- |
-| [![MKR stack with the access lid installed](docs/images/mkr/stack-enclosure.png)](docs/images/mkr/stack-enclosure.png) | [![UNO R4 stack with the open bezel installed](docs/images/uno-r4/stack-enclosure.jpg)](docs/images/uno-r4/stack-enclosure.jpg) |
-| **98 × 130 × 37.2 mm.** Print the base and one lid. The access lid exposes the prototyping area. The covered lid shelters it. | **132 × 120 × 43 mm.** Print the base and open bezel. The bezel lifts off to reach the shield. |
-| [Printable STLs](enclosures/mkr/fabrication/) · [Assembly guide (PDF)](enclosures/mkr/drawings/MKR-Stack-Assembly-Guide.pdf) · [CAD and source](enclosures/mkr/) | [Printable STLs](enclosures/uno-r4/fabrication/) · [Assembly guide (PDF)](enclosures/uno-r4/drawings/UNO-R4-Stack-Assembly.pdf) · [CAD and source](enclosures/uno-r4/) |
-
 ## Open a board
 
 Download or clone the repository. In KiCad 9, open the `.kicad_pro` file in the chosen board directory, then launch the Schematic Editor or PCB Editor from the project window. Keep the whole directory together when copying a board or packaging it individually. The symbol and footprint tables resolve paths relative to the project.
@@ -49,6 +39,16 @@ Select a 3D view or PCB layout to open the full-size image.
 | [UNO R4 Bench Breakout](boards/uno-r4/bench-breakout/) | [![UNO R4 Bench Breakout 3D view](docs/images/uno-r4/bench-breakout/3d.png)](docs/images/uno-r4/bench-breakout/3d.png) | [![UNO R4 Bench Breakout PCB layout](docs/images/uno-r4/bench-breakout/layout.png)](docs/images/uno-r4/bench-breakout/layout.png) |
 | [UNO R4 Companion Shield](boards/uno-r4/companion-shield/) | [![UNO R4 Companion Shield 3D view](docs/images/uno-r4/companion-shield/3d.png)](docs/images/uno-r4/companion-shield/3d.png) | [![UNO R4 Companion Shield PCB layout](docs/images/uno-r4/companion-shield/layout.png)](docs/images/uno-r4/companion-shield/layout.png) |
 | [UNO R4 Blank Shield](boards/uno-r4/blank-shield/) | [![UNO R4 Blank Shield 3D view](docs/images/uno-r4/blank-shield/3d.png)](docs/images/uno-r4/blank-shield/3d.png) | [![UNO R4 Blank Shield PCB layout](docs/images/uno-r4/blank-shield/layout.png)](docs/images/uno-r4/blank-shield/layout.png) |
+
+## Stack enclosures
+
+Both enclosures accept the prototyping shield or blank shield for their matching board family. The dimensions below are nominal. Both designs await a physical fit test.
+
+| MKR stack enclosure | UNO R4 stack enclosure |
+| --- | --- |
+| [![MKR stack with the access lid installed](docs/images/mkr/stack-enclosure.png)](docs/images/mkr/stack-enclosure.png) | [![UNO R4 stack with the open bezel installed](docs/images/uno-r4/stack-enclosure.jpg)](docs/images/uno-r4/stack-enclosure.jpg) |
+| **98 × 130 × 37.2 mm.** Print the base and one lid. The access lid exposes the prototyping area. The covered lid shelters it. | **132 × 120 × 43 mm.** Print the base and open bezel. The bezel lifts off to reach the shield. |
+| [Printable STLs](enclosures/mkr/fabrication/) · [Assembly guide (PDF)](enclosures/mkr/drawings/MKR-Stack-Assembly-Guide.pdf) · [CAD and source](enclosures/mkr/) | [Printable STLs](enclosures/uno-r4/fabrication/) · [Assembly guide (PDF)](enclosures/uno-r4/drawings/UNO-R4-Stack-Assembly.pdf) · [CAD and source](enclosures/uno-r4/) |
 
 ## Source and licenses
 
