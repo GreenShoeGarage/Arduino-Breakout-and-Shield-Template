@@ -13,6 +13,27 @@ Download or clone the repository. In KiCad 9, open the `.kicad_pro` file in the 
 
 All three MKR projects and both UNO R4 shield projects include local STEP models. The UNO R4 Bench Breakout references the standard KiCad 9 model library through `KICAD9_3DMODEL_DIR` for its 3D view.
 
+## View PCB files on GitHub
+
+Gerber Viewer for GitHub adds an interactive preview above GitHub's file content. It supports this repository's native KiCad PCB and schematic files through the embedded KiCanvas viewer.
+
+1. Install and enable the Chrome extension. [Gerber Viewer for GitHub](https://chromewebstore.google.com/detail/gerber-viewer-for-github/kjempphffigplmkbpjamikbfgpmdfbfn)
+2. Open this repository on GitHub in that browser, then select a PCB or schematic link below to visit its file page.
+3. Use the embedded viewer to zoom and pan. For PCB layouts, toggle layers to inspect copper routing, silkscreen, and the board outline.
+
+For a new GitHub repository, upload or commit the extracted project folders so each PCB and schematic has its own file page.
+
+| Board | PCB layout | Schematic |
+| --- | --- | --- |
+| MKR Terminal Carrier | [View PCB](boards/mkr/terminal-carrier/MKR-Terminal-Carrier.kicad_pcb) | [View schematic](boards/mkr/terminal-carrier/MKR-Terminal-Carrier.kicad_sch) |
+| MKR Carrier ProtoShield | [View PCB](boards/mkr/protoshield/MKR-Carrier-ProtoShield.kicad_pcb) | [View schematic](boards/mkr/protoshield/MKR-Carrier-ProtoShield.kicad_sch) |
+| MKR Blank Shield | [View PCB](boards/mkr/blank-shield/MKR-Blank-Shield.kicad_pcb) | [View schematic](boards/mkr/blank-shield/MKR-Blank-Shield.kicad_sch) |
+| UNO R4 Bench Breakout | [View PCB](boards/uno-r4/bench-breakout/UNO-R4-Breakout.kicad_pcb) | [View schematic](boards/uno-r4/bench-breakout/UNO-R4-Breakout.kicad_sch) |
+| UNO R4 Companion Shield | [View PCB](boards/uno-r4/companion-shield/UNO-R4-Companion-Shield.kicad_pcb) | [View schematic](boards/uno-r4/companion-shield/UNO-R4-Companion-Shield.kicad_sch) |
+| UNO R4 Blank Shield | [View PCB](boards/uno-r4/blank-shield/UNO-R4-Blank-Shield.kicad_pcb) | [View schematic](boards/uno-r4/blank-shield/UNO-R4-Blank-Shield.kicad_sch) |
+
+The extension also previews Gerber and Excellon drill files, folders containing Gerber layers, and ZIP archives containing Gerber layers committed to GitHub.
+
 ## Board gallery
 
 Select a 3D view or PCB layout to open the full-size image.
