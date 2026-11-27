@@ -47,7 +47,7 @@ Each UNO R4 board folder includes the supplied Gerber and drill files in `fabric
 
 ## Board gallery
 
-Select a 3D view or PCB layout to open the full-size image.
+The PCB images below were regenerated from the current KiCad files on November 27, 2026. Layouts show front copper in red and back copper in blue. Select a 3D view or PCB layout to open the full-size image.
 
 ### Arduino MKR
 
@@ -58,9 +58,9 @@ Select a 3D view or PCB layout to open the full-size image.
 | [MKR Blank Shield](boards/mkr/blank-shield/) | [![MKR Blank Shield 3D view](docs/images/mkr/blank-shield/3d.png)](docs/images/mkr/blank-shield/3d.png) | [![MKR Blank Shield PCB layout](docs/images/mkr/blank-shield/layout.png)](docs/images/mkr/blank-shield/layout.png) |
 
 <details>
-<summary>MKR Blank Shield layout with millimeter scale</summary>
+<summary>MKR Blank Shield layout with a 20 mm scale bar</summary>
 
-[![MKR Blank Shield PCB outline on the Flux millimeter grid](docs/images/mkr/blank-shield/layout-with-scale.png)](docs/images/mkr/blank-shield/layout-with-scale.png)
+[![MKR Blank Shield PCB layout with a 20 mm scale bar](docs/images/mkr/blank-shield/layout-with-scale.png)](docs/images/mkr/blank-shield/layout-with-scale.png)
 
 </details>
 
