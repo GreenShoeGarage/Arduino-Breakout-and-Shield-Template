@@ -1,0 +1,90 @@
+{
+  "basis": "MKR WiFi 1010 ABX00023, revision A carrier and companion PCBs",
+  "repository_zip_sha256": "a6696c75058e781e2c84dc67c80cc898846697556522123d74974fa5f3f26387",
+  "manufacturer_CAD_sha256": "9bbfb37a3dcc0177f945d1ad19448ab8255930920759d53bc9d4581a8195181c",
+  "manufacturer_cad_url": "https://docs.arduino.cc/static/696878518f486c07e1a416ecd44c3729/ABX00023-cad-files.zip",
+  "official_pinout_url": "https://docs.arduino.cc/resources/pinouts/ABX00023-full-pinout.pdf",
+  "physical_tests": "not performed",
+  "companion_mating_positions_verified_per_board": 28,
+  "boards": {
+    "terminal-carrier": {
+      "pcb_sha256": "6051bc508c12ff0c88ca88717c126b2b5af7181a9cad26677fb4501e4fbbf4c2",
+      "flux_sha256": "8cf42d6fcaeeb6085cfd5cb4b22c2571fb65a6e7ef8bfcbabdb03f11b1b1d7df",
+      "fabrication_zip_sha256": "3cc84294c084b1eb9de01500c08813c35b3a9eeabd80e0696fbf7f6525e811c8",
+      "kicad_errors_warnings_unrouted_parity_exclusions": 0,
+      "matching_regenerated_copper_and_drill_files": [
+        "MKR-Terminal-Carrier-B_Cu.gbl",
+        "MKR-Terminal-Carrier-F_Cu.gtl",
+        "MKR-Terminal-Carrier-NPTH.drl",
+        "MKR-Terminal-Carrier-PTH.drl"
+      ],
+      "tracks": {
+        "top": 0,
+        "bottom": 84
+      },
+      "plated_pads": 84,
+      "nonplated_drills": 4,
+      "electrical_components": 28,
+      "pads_per_component_histogram": {
+        "3": 28
+      },
+      "minimum_different_net_gap_mm": 0.244,
+      "orphan_copper": 0,
+      "unexpected_net_joins": 0,
+      "required_disconnections": 0
+    },
+    "protoshield": {
+      "pcb_sha256": "459c777fd28def17572aa9c76337cb7843de71e5b5125553367deef12b084097",
+      "flux_sha256": "4344a8f1aab982a754334cd601b9fc2353fce31c427606acc907acffdb5d7aeb",
+      "fabrication_zip_sha256": "7cd8655d452b04372d7299017156b2dee91d7de394a5379539d0dcadfe72bb5f",
+      "kicad_errors_warnings_unrouted_parity_exclusions": 0,
+      "matching_regenerated_copper_and_drill_files": [
+        "MKR-Carrier-ProtoShield-B_Cu.gbl",
+        "MKR-Carrier-ProtoShield-F_Cu.gtl",
+        "MKR-Carrier-ProtoShield-NPTH.drl",
+        "MKR-Carrier-ProtoShield-PTH.drl"
+      ],
+      "tracks": {
+        "top": 28,
+        "bottom": 0
+      },
+      "plated_pads": 231,
+      "nonplated_drills": 2,
+      "electrical_components": 203,
+      "pads_per_component_histogram": {
+        "1": 175,
+        "2": 28
+      },
+      "minimum_different_net_gap_mm": 0.84,
+      "orphan_copper": 0,
+      "unexpected_net_joins": 0,
+      "required_disconnections": 0
+    },
+    "blank-shield": {
+      "pcb_sha256": "a908b5d84dba500cdd6ea3a3c8b0069734bc2e50495b2fde759b21a65035c18c",
+      "flux_sha256": "73dd75b46209c7932d0a71ef96c9bc420ae1fabdffce29484046f79584ff2168",
+      "fabrication_zip_sha256": "ccfd7ef31a19b34b88dd4e717ff0b5287407d9bafcf71cf50647fa3c54f56fdd",
+      "kicad_errors_warnings_unrouted_parity_exclusions": 0,
+      "matching_regenerated_copper_and_drill_files": [
+        "MKR-Blank-Shield-B_Cu.gbl",
+        "MKR-Blank-Shield-F_Cu.gtl",
+        "MKR-Blank-Shield-NPTH.drl",
+        "MKR-Blank-Shield-PTH.drl"
+      ],
+      "tracks": {
+        "top": 0,
+        "bottom": 0
+      },
+      "plated_pads": 28,
+      "nonplated_drills": 2,
+      "electrical_components": 28,
+      "pads_per_component_histogram": {
+        "1": 28
+      },
+      "minimum_different_net_gap_mm": 0.84,
+      "orphan_copper": 0,
+      "unexpected_net_joins": 0,
+      "required_disconnections": 0
+    }
+  }
+}

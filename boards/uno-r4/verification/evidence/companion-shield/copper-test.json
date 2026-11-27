@@ -1,0 +1,20 @@
+{
+  "opens": [],
+  "shorts": [],
+  "orphan_islands": 0,
+  "islands": 241,
+  "physical_pads": 302,
+  "schematic_nets": 241,
+  "track_segments": {
+    "F.Cu": 61
+  },
+  "vias": 0,
+  "drills": {
+    "PTH": 302
+  },
+  "normalized_fab_sha256": {
+    "UNO-R4-Companion-Shield-B_Cu.gbl": "97bc0135719c4230a4f5cefcfebb0056ae165e73bba0dcd9c4c90a2638ac36f5",
+    "UNO-R4-Companion-Shield-F_Cu.gtl": "8f4a31074beaf834d3893d526fe98bf7361cefecd803ea068a4b7970e16b1187",
+    "UNO-R4-Companion-Shield-PTH.drl": "7271122f60e6827da454454b75789d8d7a221d8984add11df1af9b3cfc78fbb8"
+  }
+}

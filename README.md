@@ -34,6 +34,17 @@ For a new GitHub repository, upload or commit the extracted project folders so e
 
 The extension also previews Gerber and Excellon drill files, folders containing Gerber layers, and ZIP archives containing Gerber layers committed to GitHub.
 
+## Routing verification
+
+The supplied November 26, 2026 verification packages cover all six Rev A boards. The UNO R4 editable projects match the repository byte for byte, and the three MKR PCB hashes match the supplied audit. The reports record digital routing, rule, and pin-mapping checks. Physical assemblies await bench measurement.
+
+| Family | Verification report | Continuity checklist | Complete verification package |
+| --- | --- | --- | --- |
+| MKR | [Routing verification (PDF)](boards/mkr/verification/MKR-Routing-Verification.pdf) | [Pin continuity (CSV)](boards/mkr/verification/MKR-Pin-Continuity.csv) | [Reports, netlists, and audit](boards/mkr/verification/) |
+| UNO R4 | [Routing verification](boards/uno-r4/verification/README.md) | [Pin continuity (CSV)](boards/uno-r4/verification/UNO-R4-Pin-Continuity.csv) | [Evidence, audited inputs, and replay scripts](boards/uno-r4/verification/) |
+
+Each UNO R4 board folder includes the supplied Gerber and drill files in `fabrication/` and connection tables in `pin-tables/`. The complete UNO R4 verification package retains its input archives and directory structure for the replay instructions.
+
 ## Board gallery
 
 Select a 3D view or PCB layout to open the full-size image.

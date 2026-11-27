@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/5bcafcbb870a/routecheck/tmp/blank-shield/project/UNO-R4-Blank-Shield.kicad_sch</source>
+    <date>2026-11-26T23:28:31-0500</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UNO R4 blank component shield</title>
+        <company>Green Shoe Garage</company>
+        <rev>A-Blank</rev>
+        <date>2026-11-24</date>
+        <source>UNO-R4-Blank-Shield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-110-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-110-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-110-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J10" description=""/>
+      <property name="MPN" value="SSW-110-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b774705c-a78f-52da-84d1-560ddd65efe7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-108-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-108-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-108-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J8" description=""/>
+      <property name="MPN" value="SSW-108-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31c5739a-aacc-5771-8c37-8b3bb9489570</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-108-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-108-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-108-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J8" description=""/>
+      <property name="MPN" value="SSW-108-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>736329bc-b4a8-5259-945c-96866ac82b0a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-106-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-106-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-106-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J6" description=""/>
+      <property name="MPN" value="SSW-106-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27651269-2151-5926-8b38-79fa7770325b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-106-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-106-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-106-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J6" description=""/>
+      <property name="MPN" value="SSW-106-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cebb584-62db-57c1-9cab-cdc62eb3b796</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-103-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-103-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-103-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J3" description=""/>
+      <property name="MPN" value="SSW-103-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ba15e7b-640a-5d11-b759-4ebdf9a9a667</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-106-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-106-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-106-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J6" description=""/>
+      <property name="MPN" value="SSW-106-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e18d71f0-8e6f-5cc3-92de-80f5074beafb</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-104-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-104-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-104-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J4" description=""/>
+      <property name="MPN" value="SSW-104-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a62a945-87c2-5a94-b853-17543a6d55cb</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Socket</value>
+      <footprint>Shield:Samtec_SSW-110-21-G-S</footprint>
+      <fields>
+        <field name="MPN">SSW-110-21-G-S</field>
+        <field name="Footprint">Shield:Samtec_SSW-110-21-G-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="J10" description=""/>
+      <property name="MPN" value="SSW-110-21-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1ca5cd9-8539-527c-9447-6fdddeddb18e</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_10</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P10" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c11d351-f5ec-50a6-b407-cdde22601022</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_08</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P8" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d4d229-84c8-5805-97e0-5eaeb48eea82</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_08</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_08</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P8" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0abddb0f-0680-5b71-b248-1e9fa35edec3</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_06</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P6" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>677c9711-a1c8-56a9-a46c-4a32e15a3bcd</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_06</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P6" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa630bba-40b1-5923-b11e-d53812739063</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_03</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P3" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>387a62de-118e-5449-a281-42a7a2d53865</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_06</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P6" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59dc960-7fa2-543a-8f85-147bd44672d3</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_04</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P4" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4660ee5f-1e9c-5c7f-9567-59a94883fd06</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>Solder row</value>
+      <footprint>Shield:Solder_10</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Shield:Solder_10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Shield" part="P10" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Blank-Shield.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f166c312-a98e-59db-a48b-fb27b6e22514</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Shield" part="J10">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="J6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="J8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">J8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="P10">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">P10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="P3">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">P3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="P4">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">P4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="P6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">P6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield" part="P8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">P8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Shield">
+      <uri>/workspace/scratch/5bcafcbb870a/routecheck/tmp/blank-shield/project/Shield.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A0_DAC" class="Default">
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="P4" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/A1" class="Default">
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="P4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/A2" class="Default">
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="P4" pin="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/A3" class="Default">
+      <node ref="J4" pin="4" pintype="passive"/>
+      <node ref="P4" pin="4" pintype="passive"/>
+    </net>
+    <net code="5" name="/A4_SDA" class="Default">
+      <node ref="J4" pin="5" pintype="passive"/>
+      <node ref="P4" pin="5" pintype="passive"/>
+    </net>
+    <net code="6" name="/A5_SCL" class="Default">
+      <node ref="J4" pin="6" pintype="passive"/>
+      <node ref="P4" pin="6" pintype="passive"/>
+    </net>
+    <net code="7" name="/AREF" class="Default">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="P1" pin="3" pintype="passive"/>
+    </net>
+    <net code="8" name="/BOOT" class="Default">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="P3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/D0_RX" class="Default">
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="P2" pin="8" pintype="passive"/>
+    </net>
+    <net code="10" name="/D1_TX" class="Default">
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="P2" pin="7" pintype="passive"/>
+    </net>
+    <net code="11" name="/D2" class="Default">
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="P2" pin="6" pintype="passive"/>
+    </net>
+    <net code="12" name="/D3" class="Default">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="P2" pin="5" pintype="passive"/>
+    </net>
+    <net code="13" name="/D4" class="Default">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="P2" pin="4" pintype="passive"/>
+    </net>
+    <net code="14" name="/D5" class="Default">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="P2" pin="3" pintype="passive"/>
+    </net>
+    <net code="15" name="/D6" class="Default">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="P2" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/D7" class="Default">
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="P2" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/D8" class="Default">
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="P1" pin="10" pintype="passive"/>
+    </net>
+    <net code="18" name="/D9" class="Default">
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="P1" pin="9" pintype="passive"/>
+    </net>
+    <net code="19" name="/D10" class="Default">
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="P1" pin="8" pintype="passive"/>
+    </net>
+    <net code="20" name="/D11" class="Default">
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="P1" pin="7" pintype="passive"/>
+    </net>
+    <net code="21" name="/D12" class="Default">
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="P1" pin="6" pintype="passive"/>
+    </net>
+    <net code="22" name="/D13" class="Default">
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="P1" pin="5" pintype="passive"/>
+    </net>
+    <net code="23" name="/DGND" class="Default">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="P1" pin="4" pintype="passive"/>
+    </net>
+    <net code="24" name="/ESP_GND" class="Default">
+      <node ref="J7" pin="3" pintype="passive"/>
+      <node ref="P7" pin="3" pintype="passive"/>
+    </net>
+    <net code="25" name="/ESP_IO0" class="Default">
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="P7" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/ESP_IO41" class="Default">
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="P7" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/ESP_IO42" class="Default">
+      <node ref="J7" pin="6" pintype="passive"/>
+      <node ref="P7" pin="6" pintype="passive"/>
+    </net>
+    <net code="28" name="/ESP_RXD" class="Default">
+      <node ref="J7" pin="4" pintype="passive"/>
+      <node ref="P7" pin="4" pintype="passive"/>
+    </net>
+    <net code="29" name="/ESP_TXD" class="Default">
+      <node ref="J7" pin="5" pintype="passive"/>
+      <node ref="P7" pin="5" pintype="passive"/>
+    </net>
+    <net code="30" name="/IOREF" class="Default">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="P3" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/P3V3" class="Default">
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="P3" pin="4" pintype="passive"/>
+    </net>
+    <net code="32" name="/P5V" class="Default">
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="P3" pin="5" pintype="passive"/>
+    </net>
+    <net code="33" name="/PGND1" class="Default">
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="P3" pin="6" pintype="passive"/>
+    </net>
+    <net code="34" name="/PGND2" class="Default">
+      <node ref="J3" pin="7" pintype="passive"/>
+      <node ref="P3" pin="7" pintype="passive"/>
+    </net>
+    <net code="35" name="/Q_3V3" class="Default">
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="P8" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="/Q_GND" class="Default">
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="P8" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/Q_SCL" class="Default">
+      <node ref="J8" pin="4" pintype="passive"/>
+      <node ref="P8" pin="4" pintype="passive"/>
+    </net>
+    <net code="38" name="/Q_SDA" class="Default">
+      <node ref="J8" pin="3" pintype="passive"/>
+      <node ref="P8" pin="3" pintype="passive"/>
+    </net>
+    <net code="39" name="/RESET" class="Default">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="P3" pin="3" pintype="passive"/>
+    </net>
+    <net code="40" name="/RTC_GND" class="Default">
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="P6" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="/RTC_OFF" class="Default">
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="P6" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/SCL" class="Default">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="P1" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="/SDA" class="Default">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="P1" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/SPI_5V" class="Default">
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="P5" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="/SPI_CIPO" class="Default">
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="P5" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="/SPI_COPI" class="Default">
+      <node ref="J5" pin="4" pintype="passive"/>
+      <node ref="P5" pin="4" pintype="passive"/>
+    </net>
+    <net code="47" name="/SPI_GND" class="Default">
+      <node ref="J5" pin="6" pintype="passive"/>
+      <node ref="P5" pin="6" pintype="passive"/>
+    </net>
+    <net code="48" name="/SPI_RST" class="Default">
+      <node ref="J5" pin="5" pintype="passive"/>
+      <node ref="P5" pin="5" pintype="passive"/>
+    </net>
+    <net code="49" name="/SPI_SCK" class="Default">
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="P5" pin="3" pintype="passive"/>
+    </net>
+    <net code="50" name="/SWD_CLK" class="Default">
+      <node ref="J9" pin="2" pintype="passive"/>
+      <node ref="P9" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/SWD_G1" class="Default">
+      <node ref="J9" pin="9" pintype="passive"/>
+      <node ref="P9" pin="9" pintype="passive"/>
+    </net>
+    <net code="52" name="/SWD_G2" class="Default">
+      <node ref="J9" pin="8" pintype="passive"/>
+      <node ref="P9" pin="8" pintype="passive"/>
+    </net>
+    <net code="53" name="/SWD_G3" class="Default">
+      <node ref="J9" pin="6" pintype="passive"/>
+      <node ref="P9" pin="6" pintype="passive"/>
+    </net>
+    <net code="54" name="/SWD_IO" class="Default">
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="P9" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="/SWD_NC" class="Default">
+      <node ref="J9" pin="3" pintype="passive"/>
+      <node ref="P9" pin="3" pintype="passive"/>
+    </net>
+    <net code="56" name="/SWD_RST" class="Default">
+      <node ref="J9" pin="5" pintype="passive"/>
+      <node ref="P9" pin="5" pintype="passive"/>
+    </net>
+    <net code="57" name="/SWD_RX1" class="Default">
+      <node ref="J9" pin="7" pintype="passive"/>
+      <node ref="P9" pin="7" pintype="passive"/>
+    </net>
+    <net code="58" name="/SWD_TX1" class="Default">
+      <node ref="J9" pin="4" pintype="passive"/>
+      <node ref="P9" pin="4" pintype="passive"/>
+    </net>
+    <net code="59" name="/SWD_VT5" class="Default">
+      <node ref="J9" pin="10" pintype="passive"/>
+      <node ref="P9" pin="10" pintype="passive"/>
+    </net>
+    <net code="60" name="/VIN" class="Default">
+      <node ref="J3" pin="8" pintype="passive"/>
+      <node ref="P3" pin="8" pintype="passive"/>
+    </net>
+    <net code="61" name="/VRTC" class="Default">
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="P6" pin="3" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/332350eedf07/routing-review/repo/Arduino-MKR-UNO-R4-PCBs/boards/mkr/terminal-carrier/MKR-Terminal-Carrier.kicad_sch</source>
+    <date>2026-11-26T23:29:11-0500</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MKR Terminal Carrier</title>
+        <company>Green Shoe Garage</company>
+        <rev>A</rev>
+        <date>2026-11-24</date>
+        <source>MKR-Terminal-Carrier.kicad_sch</source>
+        <comment number="1" value="MKR WiFi 1010 reference | 28 direct pass-through nets"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>MKR socket</value>
+      <footprint>Carrier:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/ssw-114-01-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">SSW-114-01-G-S</field>
+        <field name="Footprint">Carrier:PinSocket_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/ssw-114-01-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="SSW-114-01-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aab6b844-122c-51cf-a294-4a534ba4a7fd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MKR socket</value>
+      <footprint>Carrier:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/ssw-114-01-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">SSW-114-01-G-S</field>
+        <field name="Footprint">Carrier:PinSocket_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/ssw-114-01-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="SSW-114-01-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efede07a-5275-5a8e-a672-e692d6594815</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Breakout header</value>
+      <footprint>Carrier:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw-114-07-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">TSW-114-07-G-S</field>
+        <field name="Footprint">Carrier:PinHeader_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw-114-07-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="TSW-114-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e0f1bb9-65fd-522b-b48e-c1c14a4babb8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Breakout header</value>
+      <footprint>Carrier:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/tsw-114-07-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">TSW-114-07-G-S</field>
+        <field name="Footprint">Carrier:PinHeader_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/tsw-114-07-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="TSW-114-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6c2c01b-18c3-5975-8652-1b5ebf381d01</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Screw terminal</value>
+      <footprint>Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</datasheet>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1725708</field>
+        <field name="Footprint">Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="MPN" value="1725708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01f5e2e4-677a-5a53-8dfc-724a189b098c</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Screw terminal</value>
+      <footprint>Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</datasheet>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1725708</field>
+        <field name="Footprint">Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="MPN" value="1725708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65a8f7b4-f3b5-506b-addb-97b1d66db53b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Screw terminal</value>
+      <footprint>Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</datasheet>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1725708</field>
+        <field name="Footprint">Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="MPN" value="1725708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ad1308c-92e7-5bd8-8f35-637c87cf148b</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Screw terminal</value>
+      <footprint>Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</datasheet>
+      <fields>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="MPN">1725708</field>
+        <field name="Footprint">Carrier:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-7-254-1725708</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Carrier" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="MPN" value="1725708"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Terminal-Carrier.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37eb352f-9079-5a2b-8c21-e757d775ef26</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Carrier" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Carrier" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Carrier">
+      <uri>/workspace/scratch/332350eedf07/routing-review/repo/Arduino-MKR-UNO-R4-PCBs/boards/mkr/terminal-carrier/Carrier.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Power">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="2" name="/5V" class="Power">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="3" name="/A0" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/A1" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/A2" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="6" name="/A3" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="7" name="/A4" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="8" name="/A5" class="Default">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="9" name="/A6" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="/AREF" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/D0" class="Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/D1" class="Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/D2" class="Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="14" name="/D3" class="Default">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="15" name="/D4" class="Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="16" name="/D5" class="Default">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="17" name="/D6" class="Default">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/D7" class="Default">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/D8_COPI" class="Default">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="20" name="/D9_SCK" class="Default">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="21" name="/D10_CIPO" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="22" name="/D11_SDA" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="23" name="/D12_SCL" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="24" name="/D13_RX" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="25" name="/D14_TX" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="26" name="/GND" class="Power">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="27" name="/RESET" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="28" name="/VIN" class="Power">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+  </nets>
+</export>

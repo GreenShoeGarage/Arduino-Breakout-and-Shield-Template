@@ -1,0 +1,44 @@
+{
+  "opens": [],
+  "shorts": [],
+  "orphan_islands": 0,
+  "islands": 61,
+  "physical_pads": 185,
+  "schematic_nets": 61,
+  "track_segments": {
+    "F.Cu": 150,
+    "B.Cu": 14
+  },
+  "vias": 3,
+  "drills": {
+    "NPTH": 7,
+    "PTH": 182
+  },
+  "normalized_fab_sha256": {
+    "UNO-R4-Breakout-B_Cu.gbl": "d0e44e7147007d36b59271b9eb6f124c0cec2599e6c97466628c0aa802712aaa",
+    "UNO-R4-Breakout-F_Cu.gtl": "cd1a555efd20f061d03f17488ad5e9681daddbfb783b877af68aa94b8fdbb011",
+    "UNO-R4-Breakout-NPTH.drl": "6e829383a1301a23253709c31614e0c89de8944465bfca75de8b6a583a300db3",
+    "UNO-R4-Breakout-PTH.drl": "148d9e9b9e18babc431a8992cb183638f3124f04f6518b9bdb1837788d4fd29c"
+  },
+  "negative_controls": {
+    "cut_D0": {
+      "opens": [
+        "/D0_RX"
+      ],
+      "shorts": [],
+      "orphan_islands": 0,
+      "islands": 62
+    },
+    "bridge_D0_to_D1": {
+      "opens": [],
+      "shorts": [
+        [
+          "/D0_RX",
+          "/D1_TX"
+        ]
+      ],
+      "orphan_islands": 0,
+      "islands": 60
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-26T23:28:30-0500",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/340919c7-b4e3-577b-8605-fdbab62aa643",
+            "violations": []
+        }
+    ],
+    "source": "UNO-R4-Blank-Shield.kicad_sch"
+}

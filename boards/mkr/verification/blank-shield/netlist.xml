@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/332350eedf07/routing-review/repo/Arduino-MKR-UNO-R4-PCBs/boards/mkr/blank-shield/MKR-Blank-Shield.kicad_sch</source>
+    <date>2026-11-26T23:29:11-0500</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MKR Blank Shield</title>
+        <company>Green Shoe Garage</company>
+        <rev>A</rev>
+        <date>2026-11-24</date>
+        <source>MKR-Blank-Shield.kicad_sch</source>
+        <comment number="1" value="Matches MKR Terminal Carrier Rev A, outer headers J3 and J4"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>MKR underside socket</value>
+      <footprint>MKRBlank:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/ssw-114-01-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">SSW-114-01-G-S</field>
+        <field name="Footprint">MKRBlank:PinSocket_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/ssw-114-01-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MKRBlank" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="SSW-114-01-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Blank-Shield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d18a609a-b3d9-5289-a38d-ff22fa5f025e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MKR underside socket</value>
+      <footprint>MKRBlank:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.samtec.com/products/ssw-114-01-g-s</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec</field>
+        <field name="MPN">SSW-114-01-G-S</field>
+        <field name="Footprint">MKRBlank:PinSocket_1x14_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.samtec.com/products/ssw-114-01-g-s</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MKRBlank" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="MPN" value="SSW-114-01-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MKR-Blank-Shield.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f91b8db-5919-56df-80b6-160ae8aebf00</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MKRBlank" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MKRBlank">
+      <uri>/workspace/scratch/332350eedf07/routing-review/repo/Arduino-MKR-UNO-R4-PCBs/boards/mkr/blank-shield/MKRBlank.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Power">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="2" name="/5V" class="Power">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="3" name="/A0" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="4" name="/A1" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="5" name="/A2" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="/A3" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="/A4" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="/A5" class="Default">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="/A6" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="/AREF" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="/D0" class="Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="/D1" class="Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="/D2" class="Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="/D3" class="Default">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="/D4" class="Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="/D5" class="Default">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="/D6" class="Default">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="/D7" class="Default">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="/D8_COPI" class="Default">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="/D9_SCK" class="Default">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="/D10_CIPO" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="/D11_SDA" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="/D12_SCL" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="/D13_RX" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="/D14_TX" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="/GND" class="Power">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="/RESET" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="/VIN" class="Power">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
