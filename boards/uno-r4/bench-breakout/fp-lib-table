@@ -5,4 +5,4 @@
 (lib (name "MountingHole")(type "KiCad")(uri "${KIPRJMOD}/footprints/MountingHole.pretty")(options "")(descr ""))
 (lib (name "R4_Footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints/R4_Footprints.pretty")(options "")(descr ""))
 (lib (name "TerminalBlock_Phoenix")(type "KiCad")(uri "${KIPRJMOD}/footprints/TerminalBlock_Phoenix.pretty")(options "")(descr ""))
-)
+(lib(name "Dock")(type "KiCad")(uri "${KIPRJMOD}/Dock.pretty")(options "")(descr ""))(lib(name "Resistor_SMD")(type "KiCad")(uri "${KIPRJMOD}/footprints/Resistor_SMD.pretty")(options "")(descr "")))

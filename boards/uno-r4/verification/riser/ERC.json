@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-27T20:17:46-0500",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1714da7b-9bf2-5901-9bb2-feecb5233497",
+            "violations": []
+        }
+    ],
+    "source": "UNO-R4-SWD-Riser.kicad_sch"
+}

@@ -1,6 +1,6 @@
 {
   "part_id": "UNO-R4-Stack",
-  "revision": "A",
+  "revision": "B assembly / A base and bezel",
   "units": "mm",
   "print_quantity": {
     "base": 1,
@@ -30,7 +30,7 @@
   "mount_interfaces": "source/interfaces.json",
   "stack": [
     "UNO R4 Minima or WiFi",
-    "UNO R4 Bench Breakout Rev A",
+    "UNO R4 Rev B direct pickup breakout, assembled for the corresponding model",
     "Companion prototyping or blank component shield"
   ],
   "user_requirement": "Expose ports, wiring terminals and pin access while all three boards are stacked.",
@@ -45,5 +45,12 @@
     "No PCB preloading by lower leveling nuts",
     "Trim stud tips to \u22640.5 mm past nut",
     "Check all actual connector housings and custom shield parts on first article"
-  ]
+  ],
+  "locators": {
+    "round_qty": 1,
+    "diamond_qty": 1,
+    "height_mm": 11.8,
+    "pilot_od_mm": 3.14,
+    "fasteners": "2 \u00d7 M2 \u00d7 24 mm at MH5/MH6, one front M2 \u00d7 10 mm"
+  }
 }

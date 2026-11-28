@@ -1,6 +1,6 @@
 {
   "part_id": "UNO-R4-Stack",
-  "revision": "A",
+  "revision": "B assembly / A shell",
   "units": "mm",
   "supplier": "In-house",
   "material": "PETG suggested",
@@ -33,20 +33,20 @@
     },
     "drawing": {
       "status": "pass",
-      "evidence": "All 3 pages were rendered and reviewed. Hole positions, access windows, heights, selected fasteners and U1 offset are noted."
+      "evidence": "Four-page assembly guide, dimensioned stack and pin examples."
     },
     "units_revision": {
       "status": "pass",
-      "evidence": "Each released geometry uses mm and revision A. Base and bezel both lie on print Z=0."
+      "evidence": "Shell Rev A, stack hardware Rev B. All mechanical dimensions in mm."
     }
   },
   "critical_unknowns": [
     "Physical print, installed printer profile and actual connector shell dimensions."
   ],
   "assumptions": [
-    "Bare host without the original plastic base.",
-    "PETG on an FDM printer as a fit prototype.",
-    "Original Rev A mating headers; use adjustment nuts to match measured stack height."
+    "Bare Arduino board without plastic base.",
+    "11.80 mm precision locator shoulder.",
+    "Mark the assembled carrier WiFi or Minima."
   ],
   "vendor_sources": [
     {
@@ -58,5 +58,10 @@
   "machine_preview": {
     "status": "not_checked",
     "evidence": "Specific Bambu Studio profile and toolpath not run."
-  }
+  },
+  "direct_stack_check": "checks/direct-stack-fit.json",
+  "locating_spacers": [
+    "fabrication/Locating-Spacer-Round.stl",
+    "fabrication/Locating-Spacer-Diamond.stl"
+  ]
 }

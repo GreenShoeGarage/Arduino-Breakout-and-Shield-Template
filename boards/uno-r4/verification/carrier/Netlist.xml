@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/5bcafcbb870a/revb/carrier/UNO-R4-Breakout.kicad_sch</source>
+    <date>2026-11-27T20:17:44-0500</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UNO R4 | Bench breakout</title>
+        <company>Green Shoe Garage</company>
+        <rev>B</rev>
+        <date>2026-11-27</date>
+        <source>UNO-R4-Breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>DH jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-110-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H1" description=""/>
+      <property name="MPN" value="TSW-110-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69f1a5a7-1d1e-5891-aae6-28cb3327c2ec</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>DL jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-108-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H2" description=""/>
+      <property name="MPN" value="TSW-108-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31434b72-f8e3-56c2-baf6-88feb43b64e9</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>PW jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-108-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H3" description=""/>
+      <property name="MPN" value="TSW-108-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>246bdbf7-9f2e-5350-87f3-7edf2cd2fc57</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>AN jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-106-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H4" description=""/>
+      <property name="MPN" value="TSW-106-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd310fd4-0532-5d3d-81ad-21c504f282c5</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>SPI jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-106-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H5" description=""/>
+      <property name="MPN" value="TSW-106-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22ff5bc5-71ca-53b4-b105-bec121bd32cd</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>RTC jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-103-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H6" description=""/>
+      <property name="MPN" value="TSW-103-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63e01cd8-dff6-5f00-a589-52e4adea5c48</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>ESP jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-106-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H7" description=""/>
+      <property name="MPN" value="TSW-106-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab2b5d9-a088-5915-9e27-19ec67c3ddc6</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>QW jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-104-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H8" description=""/>
+      <property name="MPN" value="TSW-104-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fcec0c5-4a3f-5392-82b6-9bc8684da6c2</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>SWD jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-110-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_H9" description=""/>
+      <property name="MPN" value="TSW-110-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a707beb-7131-58c1-ad70-fedfe496bb1d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DH input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">PRT-11417 [10]</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J1" description=""/>
+      <property name="MPN" value="PRT-11417 [10]"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02a3090f-3929-5701-98fd-bb40f304a3b6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DL input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">PRT-11417 [8]</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J2" description=""/>
+      <property name="MPN" value="PRT-11417 [8]"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fc06c32-505c-552a-8185-082da17605a6</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PW input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">PRT-11417 [8]</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J3" description=""/>
+      <property name="MPN" value="PRT-11417 [8]"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee46f9f0-984e-56c4-858f-1d70ebc7f169</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>AN input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">PRT-11417 [6]</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J4" description=""/>
+      <property name="MPN" value="PRT-11417 [6]"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c513324-9563-59f5-abfd-7524b83e33d4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SPI input</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">SSW-103-01-G-D</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J5" description=""/>
+      <property name="MPN" value="SSW-103-01-G-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f42d9d2d-35f7-5d90-aef7-07e65d125fe7</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>RTC input</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-103-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J6" description=""/>
+      <property name="MPN" value="TSW-103-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98d1e548-c696-56ce-aaaa-91d69be2201d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>ESP input</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-103-07-G-D</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J7" description=""/>
+      <property name="MPN" value="TSW-103-07-G-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6db4668-aaa6-5e13-9fc7-3589bc7e5e26</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>QW input</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">BM04B-SRSS-TB(LF)(SN)</field>
+        <field name="Footprint">Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J8" description=""/>
+      <property name="MPN" value="BM04B-SRSS-TB(LF)(SN)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a80e1595-2a5f-5bc3-b976-f6cf98f0b320</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>SWD input</value>
+      <footprint>R4_Footprints:Samtec_FTSH-105-01-L-D</footprint>
+      <fields>
+        <field name="MPN">FTSH-105-01-L-D</field>
+        <field name="Footprint">R4_Footprints:Samtec_FTSH-105-01-L-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_J9" description=""/>
+      <property name="MPN" value="FTSH-105-01-L-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26b17586-cec8-52dc-81d3-61b000dfd304</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>JOFF direct socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">SSW-103-01-G-S</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J16" description=""/>
+      <property name="MPN" value="SSW-103-01-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d531e11-1ec0-586c-8f01-e6911d232129</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>J6 direct socket</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">SSW-103-01-G-D</field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J17" description=""/>
+      <property name="MPN" value="SSW-103-01-G-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3a26a4d-7239-5277-8c38-54b121444f68</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Minima riser tails</value>
+      <footprint>Dock:Riser_Tails_1x05</footprint>
+      <fields>
+        <field name="MPN">TSW-105-07-G-S • shared with riser</field>
+        <field name="Footprint">Dock:Riser_Tails_1x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J19" description=""/>
+      <property name="MPN" value="TSW-105-07-G-S • shared with riser"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d387a03-1659-5270-b30e-45482d155992</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>Minima riser tails</value>
+      <footprint>Dock:Riser_Tails_1x05</footprint>
+      <fields>
+        <field name="MPN">TSW-105-07-G-S • shared with riser</field>
+        <field name="Footprint">Dock:Riser_Tails_1x05</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J20" description=""/>
+      <property name="MPN" value="TSW-105-07-G-S • shared with riser"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>171d1f6c-e3f1-5875-a471-b274b9f9b404</tstamps>
+    </comp>
+    <comp ref="R81">
+      <value>0R WiFi ground</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805JR-070RL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_R81" description=""/>
+      <property name="MPN" value="RC0805JR-070RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92ce04fe-2fa1-5953-8a56-38400fcbdbff</tstamps>
+    </comp>
+    <comp ref="TB1">
+      <value>DH screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725737</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB1" description=""/>
+      <property name="MPN" value="1725737"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e75c427-7acd-592e-9037-b9338cd60470</tstamps>
+    </comp>
+    <comp ref="TB2">
+      <value>DL screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725711</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB2" description=""/>
+      <property name="MPN" value="1725711"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3979646-f34f-5ab0-b64a-6cf940ada90c</tstamps>
+    </comp>
+    <comp ref="TB3">
+      <value>PW screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725711</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB3" description=""/>
+      <property name="MPN" value="1725711"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a311f6d1-b2dc-552f-a0ff-db2b00f8b523</tstamps>
+    </comp>
+    <comp ref="TB4">
+      <value>AN screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725698</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB4" description=""/>
+      <property name="MPN" value="1725698"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b3a15c8-1a56-5b22-86a1-082092dc718d</tstamps>
+    </comp>
+    <comp ref="TB5">
+      <value>SPI screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725698</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB5" description=""/>
+      <property name="MPN" value="1725698"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f51fc46-45bc-5e26-bf16-24d365eb7d22</tstamps>
+    </comp>
+    <comp ref="TB6">
+      <value>RTC screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725669</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB6" description=""/>
+      <property name="MPN" value="1725669"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c523f148-7827-56d2-bb4d-0fd0646d30c2</tstamps>
+    </comp>
+    <comp ref="TB7">
+      <value>ESP screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725698</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB7" description=""/>
+      <property name="MPN" value="1725698"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af5a2fc1-7fe2-5aeb-8d98-896bf803adfe</tstamps>
+    </comp>
+    <comp ref="TB8">
+      <value>QW screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725672</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB8" description=""/>
+      <property name="MPN" value="1725672"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c36c0f4c-7311-5c6c-8d5e-d07407b4fc0e</tstamps>
+    </comp>
+    <comp ref="TB9">
+      <value>SWD screws</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1725737</field>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-10-2.54_1x10_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4" part="R4_TB9" description=""/>
+      <property name="MPN" value="1725737"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf3e790-d847-56b6-8b9c-0596f387d8e5</tstamps>
+    </comp>
+    <comp ref="TP81">
+      <value>3V3_IC pickup</value>
+      <footprint>Dock:Probe_S13</footprint>
+      <fields>
+        <field name="MPN">S13-503 + P13-0123</field>
+        <field name="Footprint">Dock:Probe_S13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_TP81" description=""/>
+      <property name="MPN" value="S13-503 + P13-0123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25d96d6d-7806-5ee5-915b-49cfd97f2327</tstamps>
+    </comp>
+    <comp ref="TP82">
+      <value>EXT_SDA pickup</value>
+      <footprint>Dock:Probe_S13</footprint>
+      <fields>
+        <field name="MPN">S13-503 + P13-0123</field>
+        <field name="Footprint">Dock:Probe_S13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_TP82" description=""/>
+      <property name="MPN" value="S13-503 + P13-0123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc9d8e9a-5c88-56b6-8a92-c18d1bc35c76</tstamps>
+    </comp>
+    <comp ref="TP83">
+      <value>EXT_SCL pickup</value>
+      <footprint>Dock:Probe_S13</footprint>
+      <fields>
+        <field name="MPN">S13-503 + P13-0123</field>
+        <field name="Footprint">Dock:Probe_S13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_TP83" description=""/>
+      <property name="MPN" value="S13-503 + P13-0123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-Breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a53c935e-56f6-5f6f-b411-b9d37144839d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Dock" part="Dock_J16">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J16</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_J17">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J17</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_J19">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J19</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_J20">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_R81">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Dock_R81</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_TP81">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Dock_TP81</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_TP82">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Dock_TP82</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_TP83">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Dock_TP83</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H1">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H2">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H3">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H4">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H5">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H6">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H7">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H8">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_H9">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">R4_H9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J7">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="MP" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_J9">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">R4_J9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB1">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB2">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB3">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB4">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB5">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB6">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB7">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB8">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4" part="R4_TB9">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">R4_TB9</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Dock">
+      <uri>/workspace/scratch/5bcafcbb870a/revb/carrier/Dock.kicad_sym</uri>
+    </library>
+    <library logical="R4">
+      <uri>/workspace/scratch/5bcafcbb870a/revb/carrier/R4.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A0_DAC" class="Default">
+      <node ref="H4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="TB4" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/A1" class="Default">
+      <node ref="H4" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="TB4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/A2" class="Default">
+      <node ref="H4" pin="3" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="TB4" pin="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/A3" class="Default">
+      <node ref="H4" pin="4" pintype="passive"/>
+      <node ref="J4" pin="4" pintype="passive"/>
+      <node ref="TB4" pin="4" pintype="passive"/>
+    </net>
+    <net code="5" name="/A4_SDA" class="Default">
+      <node ref="H4" pin="5" pintype="passive"/>
+      <node ref="J4" pin="5" pintype="passive"/>
+      <node ref="TB4" pin="5" pintype="passive"/>
+    </net>
+    <net code="6" name="/A5_SCL" class="Default">
+      <node ref="H4" pin="6" pintype="passive"/>
+      <node ref="J4" pin="6" pintype="passive"/>
+      <node ref="TB4" pin="6" pintype="passive"/>
+    </net>
+    <net code="7" name="/AREF" class="Default">
+      <node ref="H1" pin="3" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="TB1" pin="8" pintype="passive"/>
+    </net>
+    <net code="8" name="/BOOT" class="Default">
+      <node ref="H3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="TB3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/D0_RX" class="Default">
+      <node ref="H2" pin="8" pintype="passive"/>
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="TB2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/D1_TX" class="Default">
+      <node ref="H2" pin="7" pintype="passive"/>
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="TB2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/D2" class="Default">
+      <node ref="H2" pin="6" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="TB2" pin="3" pintype="passive"/>
+    </net>
+    <net code="12" name="/D3" class="Default">
+      <node ref="H2" pin="5" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="TB2" pin="4" pintype="passive"/>
+    </net>
+    <net code="13" name="/D4" class="Default">
+      <node ref="H2" pin="4" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="TB2" pin="5" pintype="passive"/>
+    </net>
+    <net code="14" name="/D5" class="Default">
+      <node ref="H2" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="TB2" pin="6" pintype="passive"/>
+    </net>
+    <net code="15" name="/D6" class="Default">
+      <node ref="H2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="TB2" pin="7" pintype="passive"/>
+    </net>
+    <net code="16" name="/D7" class="Default">
+      <node ref="H2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="TB2" pin="8" pintype="passive"/>
+    </net>
+    <net code="17" name="/D8" class="Default">
+      <node ref="H1" pin="10" pintype="passive"/>
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="TB1" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/D9" class="Default">
+      <node ref="H1" pin="9" pintype="passive"/>
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="TB1" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/D10" class="Default">
+      <node ref="H1" pin="8" pintype="passive"/>
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="TB1" pin="3" pintype="passive"/>
+    </net>
+    <net code="20" name="/D11" class="Default">
+      <node ref="H1" pin="7" pintype="passive"/>
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="TB1" pin="4" pintype="passive"/>
+    </net>
+    <net code="21" name="/D12" class="Default">
+      <node ref="H1" pin="6" pintype="passive"/>
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="TB1" pin="5" pintype="passive"/>
+    </net>
+    <net code="22" name="/D13" class="Default">
+      <node ref="H1" pin="5" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="TB1" pin="6" pintype="passive"/>
+    </net>
+    <net code="23" name="/DGND" class="Default">
+      <node ref="H1" pin="4" pintype="passive"/>
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="TB1" pin="7" pintype="passive"/>
+    </net>
+    <net code="24" name="/ESP_GND" class="Default">
+      <node ref="H7" pin="3" pintype="passive"/>
+      <node ref="J17" pin="6" pintype="passive"/>
+      <node ref="J7" pin="6" pintype="passive"/>
+      <node ref="TB7" pin="4" pintype="passive"/>
+    </net>
+    <net code="25" name="/ESP_IO0" class="Default">
+      <node ref="H7" pin="2" pintype="passive"/>
+      <node ref="J17" pin="4" pintype="passive"/>
+      <node ref="J7" pin="4" pintype="passive"/>
+      <node ref="TB7" pin="5" pintype="passive"/>
+    </net>
+    <net code="26" name="/ESP_IO41" class="Default">
+      <node ref="H7" pin="1" pintype="passive"/>
+      <node ref="J17" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="TB7" pin="6" pintype="passive"/>
+    </net>
+    <net code="27" name="/ESP_IO42" class="Default">
+      <node ref="H7" pin="6" pintype="passive"/>
+      <node ref="J17" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="TB7" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/ESP_RXD" class="Default">
+      <node ref="H7" pin="4" pintype="passive"/>
+      <node ref="J17" pin="5" pintype="passive"/>
+      <node ref="J7" pin="5" pintype="passive"/>
+      <node ref="TB7" pin="3" pintype="passive"/>
+    </net>
+    <net code="29" name="/ESP_TXD" class="Default">
+      <node ref="H7" pin="5" pintype="passive"/>
+      <node ref="J17" pin="3" pintype="passive"/>
+      <node ref="J7" pin="3" pintype="passive"/>
+      <node ref="TB7" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/IOREF" class="Default">
+      <node ref="H3" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="TB3" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="/P3V3" class="Default">
+      <node ref="H3" pin="4" pintype="passive"/>
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="TB3" pin="4" pintype="passive"/>
+    </net>
+    <net code="32" name="/P5V" class="Default">
+      <node ref="H3" pin="5" pintype="passive"/>
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="TB3" pin="5" pintype="passive"/>
+    </net>
+    <net code="33" name="/PGND1" class="Default">
+      <node ref="H3" pin="6" pintype="passive"/>
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="TB3" pin="6" pintype="passive"/>
+    </net>
+    <net code="34" name="/PGND2" class="Default">
+      <node ref="H3" pin="7" pintype="passive"/>
+      <node ref="J3" pin="7" pintype="passive"/>
+      <node ref="TB3" pin="7" pintype="passive"/>
+    </net>
+    <net code="35" name="/Q_3V3" class="Default">
+      <node ref="H8" pin="2" pintype="passive"/>
+      <node ref="J8" pin="2" pintype="passive"/>
+      <node ref="TB8" pin="3" pintype="passive"/>
+      <node ref="TP81" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Q_GND" class="Default">
+      <node ref="H8" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J8" pin="MP" pintype="passive"/>
+      <node ref="R81" pin="2" pintype="passive"/>
+      <node ref="TB8" pin="4" pintype="passive"/>
+    </net>
+    <net code="37" name="/Q_SCL" class="Default">
+      <node ref="H8" pin="4" pintype="passive"/>
+      <node ref="J8" pin="4" pintype="passive"/>
+      <node ref="TB8" pin="1" pintype="passive"/>
+      <node ref="TP83" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/Q_SDA" class="Default">
+      <node ref="H8" pin="3" pintype="passive"/>
+      <node ref="J8" pin="3" pintype="passive"/>
+      <node ref="TB8" pin="2" pintype="passive"/>
+      <node ref="TP82" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/RESET" class="Default">
+      <node ref="H3" pin="3" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="TB3" pin="3" pintype="passive"/>
+    </net>
+    <net code="40" name="/RTC_GND" class="Default">
+      <node ref="H6" pin="2" pintype="passive"/>
+      <node ref="J16" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="TB6" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="/RTC_OFF" class="Default">
+      <node ref="H6" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="TB6" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/SCL" class="Default">
+      <node ref="H1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="TB1" pin="10" pintype="passive"/>
+    </net>
+    <net code="43" name="/SDA" class="Default">
+      <node ref="H1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="TB1" pin="9" pintype="passive"/>
+    </net>
+    <net code="44" name="/SPI_5V" class="Default">
+      <node ref="H5" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="TB5" pin="5" pintype="passive"/>
+    </net>
+    <net code="45" name="/SPI_CIPO" class="Default">
+      <node ref="H5" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="TB5" pin="6" pintype="passive"/>
+    </net>
+    <net code="46" name="/SPI_COPI" class="Default">
+      <node ref="H5" pin="4" pintype="passive"/>
+      <node ref="J5" pin="4" pintype="passive"/>
+      <node ref="TB5" pin="3" pintype="passive"/>
+    </net>
+    <net code="47" name="/SPI_GND" class="Default">
+      <node ref="H5" pin="6" pintype="passive"/>
+      <node ref="J5" pin="6" pintype="passive"/>
+      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="TB5" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="/SPI_RST" class="Default">
+      <node ref="H5" pin="5" pintype="passive"/>
+      <node ref="J5" pin="5" pintype="passive"/>
+      <node ref="TB5" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/SPI_SCK" class="Default">
+      <node ref="H5" pin="3" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="TB5" pin="4" pintype="passive"/>
+    </net>
+    <net code="50" name="/SWD_CLK" class="Default">
+      <node ref="H9" pin="2" pintype="passive"/>
+      <node ref="J20" pin="2" pintype="passive"/>
+      <node ref="J9" pin="4" pintype="passive"/>
+      <node ref="TB9" pin="9" pintype="passive"/>
+    </net>
+    <net code="51" name="/SWD_G1" class="Default">
+      <node ref="H9" pin="9" pintype="passive"/>
+      <node ref="J19" pin="2" pintype="passive"/>
+      <node ref="J9" pin="3" pintype="passive"/>
+      <node ref="TB9" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="/SWD_G2" class="Default">
+      <node ref="H9" pin="8" pintype="passive"/>
+      <node ref="J19" pin="3" pintype="passive"/>
+      <node ref="J9" pin="5" pintype="passive"/>
+      <node ref="TB9" pin="3" pintype="passive"/>
+    </net>
+    <net code="53" name="/SWD_G3" class="Default">
+      <node ref="H9" pin="6" pintype="passive"/>
+      <node ref="J19" pin="5" pintype="passive"/>
+      <node ref="J9" pin="9" pintype="passive"/>
+      <node ref="TB9" pin="5" pintype="passive"/>
+    </net>
+    <net code="54" name="/SWD_IO" class="Default">
+      <node ref="H9" pin="1" pintype="passive"/>
+      <node ref="J20" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pintype="passive"/>
+      <node ref="TB9" pin="10" pintype="passive"/>
+    </net>
+    <net code="55" name="/SWD_NC" class="Default">
+      <node ref="H9" pin="3" pintype="passive"/>
+      <node ref="J20" pin="3" pintype="passive"/>
+      <node ref="J9" pin="6" pintype="passive"/>
+      <node ref="TB9" pin="8" pintype="passive"/>
+    </net>
+    <net code="56" name="/SWD_RST" class="Default">
+      <node ref="H9" pin="5" pintype="passive"/>
+      <node ref="J20" pin="5" pintype="passive"/>
+      <node ref="J9" pin="10" pintype="passive"/>
+      <node ref="TB9" pin="6" pintype="passive"/>
+    </net>
+    <net code="57" name="/SWD_RX1" class="Default">
+      <node ref="H9" pin="7" pintype="passive"/>
+      <node ref="J19" pin="4" pintype="passive"/>
+      <node ref="J9" pin="7" pintype="passive"/>
+      <node ref="TB9" pin="4" pintype="passive"/>
+    </net>
+    <net code="58" name="/SWD_TX1" class="Default">
+      <node ref="H9" pin="4" pintype="passive"/>
+      <node ref="J20" pin="4" pintype="passive"/>
+      <node ref="J9" pin="8" pintype="passive"/>
+      <node ref="TB9" pin="7" pintype="passive"/>
+    </net>
+    <net code="59" name="/SWD_VT5" class="Default">
+      <node ref="H9" pin="10" pintype="passive"/>
+      <node ref="J19" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="TB9" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="/VIN" class="Default">
+      <node ref="H3" pin="8" pintype="passive"/>
+      <node ref="J3" pin="8" pintype="passive"/>
+      <node ref="TB3" pin="8" pintype="passive"/>
+    </net>
+    <net code="61" name="/VRTC" class="Default">
+      <node ref="H6" pin="3" pintype="passive"/>
+      <node ref="J16" pin="3" pintype="passive"/>
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="TB6" pin="3" pintype="passive"/>
+    </net>
+  </nets>
+</export>

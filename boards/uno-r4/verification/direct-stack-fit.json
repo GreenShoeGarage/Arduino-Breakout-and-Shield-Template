@@ -1,0 +1,78 @@
+{
+  "nominal_dimensions_mm": {
+    "host_top_to_carrier_underside": 11.8,
+    "minima_riser_underside": 5.6,
+    "riser_to_carrier_air": 4.600000000000001,
+    "carrier_to_shield_air": 11.05,
+    "probe_free_projection": 13.35,
+    "nominal_compression": 1.55,
+    "probe_full_travel": 2.65,
+    "sleeve_drill": 0.95,
+    "guide_OD": 3.14,
+    "guide_hole": 3.2,
+    "Q_SDA_SCL_target_offset": 0.155,
+    "target_land_diameter": 0.8001
+  },
+  "carrier_to_case_clearance_mm": 1.0225,
+  "riser_to_spacer_interference_mm3": [
+    0.0,
+    0.0
+  ],
+  "riser_to_spacer_clearance_mm": [
+    0.29,
+    23.0847
+  ],
+  "validation": {
+    "wifi": {
+      "raw_STEP_spacer_intersections_in_undrilled_FR4_mm3": [
+        3.94238,
+        3.6166
+      ],
+      "normalized_spacers_vs_drilled_host_mm3": [
+        0.0,
+        0.0
+      ],
+      "carrier_vs_host_mm3": 0,
+      "shared_SPI_socket_envelope_vs_host_mm3": 0.0,
+      "ESP_socket_envelope_vs_host_mm3": 0.0,
+      "RTC_socket_envelope_vs_host_mm3": 0.0,
+      "Qwiic": {
+        "3V3_IC": {
+          "pad_net": "+3V3_I2C",
+          "pad_top_mask_open": true,
+          "body_vs_host_above_contact_mm3": 0,
+          "tip_to_pad_edge_mm": 0.4001
+        },
+        "EXT_SDA": {
+          "pad_net": "EXT_SDA_1",
+          "pad_top_mask_open": true,
+          "body_vs_host_above_contact_mm3": 0,
+          "tip_to_pad_edge_mm": 0.2451
+        },
+        "EXT_SCL": {
+          "pad_net": "EXT_SCL_1",
+          "pad_top_mask_open": true,
+          "body_vs_host_above_contact_mm3": 0,
+          "tip_to_pad_edge_mm": 0.2451
+        }
+      }
+    },
+    "minima": {
+      "raw_STEP_spacer_intersections_in_undrilled_FR4_mm3": [
+        3.94238,
+        3.6166
+      ],
+      "normalized_spacers_vs_drilled_host_mm3": [
+        0.0,
+        0.0
+      ],
+      "carrier_vs_host_mm3": 0,
+      "shared_SPI_socket_envelope_vs_host_mm3": 0.0,
+      "riser_vs_host_mm3": 0,
+      "SWD_socket_envelope_vs_host_mm3": 0.0,
+      "riser_solder_tails_vs_host_mm3": 0
+    }
+  },
+  "wifi_step_sha256": "c729a4e24e6afae69f1dba712fcc4e7b6ed7cff39dad32f0faaf56306597e77e",
+  "minima_step_sha256": "31401de9839d07b3f730f40b84925162a248c7bd50f585590d86168772f827e5"
+}

@@ -1,0 +1,77 @@
+{
+  "boards": {
+    "carrier": {
+      "opens": [],
+      "shorts": [],
+      "orphan_islands": 0,
+      "islands": 61,
+      "numbered_pads": 209,
+      "traces": 412,
+      "vias": 40,
+      "drc_violations": 0,
+      "unrouted": 0,
+      "schematic_parity_violations": 0,
+      "erc_violations": 0,
+      "pcb_sha256": "871e2e1b11552c6182960919cd15cd56e9e45a8c00442527219703790e70e221"
+    },
+    "riser": {
+      "opens": [],
+      "shorts": [],
+      "orphan_islands": 0,
+      "islands": 10,
+      "numbered_pads": 20,
+      "traces": 43,
+      "vias": 0,
+      "drc_violations": 0,
+      "unrouted": 0,
+      "schematic_parity_violations": 0,
+      "erc_violations": 0,
+      "pcb_sha256": "d23eaecf3358e7c4a0d35e06685442ec104bf53f72565683269e5ada7a4c9894"
+    },
+    "companion-shield": {
+      "opens": [],
+      "shorts": [],
+      "orphan_islands": 0,
+      "islands": 241,
+      "numbered_pads": 302,
+      "traces": 61,
+      "vias": 0,
+      "drc_violations": 0,
+      "unrouted": 0,
+      "schematic_parity_violations": 0,
+      "erc_violations": 0,
+      "pcb_sha256": "bdbfe52e26cf88c35eaaa93b697b9d6ae1c8b79e088ec4286083d50f5bfd274c"
+    },
+    "blank-shield": {
+      "opens": [],
+      "shorts": [],
+      "orphan_islands": 0,
+      "islands": 61,
+      "numbered_pads": 122,
+      "traces": 61,
+      "vias": 0,
+      "drc_violations": 0,
+      "unrouted": 0,
+      "schematic_parity_violations": 0,
+      "erc_violations": 0,
+      "pcb_sha256": "4cd4b992f579af5e1009d78e8512bb937bb7d0cbaf4b6016281f9d190d0a0bc0"
+    }
+  },
+  "model_positions": {
+    "WiFi": 51,
+    "Minima": 48
+  },
+  "minima_reserved": "J2.6",
+  "physical_stack_test": "NOT_RUN",
+  "powered_test": "NOT_RUN",
+  "origin": "Input connector reference and pin compared against original Arduino PcbDoc, with direct XY or net-equivalent on-host test land.",
+  "max_header_xy_error_mm": 9.848857802325058e-05,
+  "shield_positions_per_variant": 61,
+  "method_counts": {
+    "Minima / Direct header": 38,
+    "Minima / Rigid SWD riser": 10,
+    "WiFi / Direct header": 47,
+    "WiFi / Direct ground via fitted R81": 1,
+    "WiFi / Spring contact": 3
+  }
+}

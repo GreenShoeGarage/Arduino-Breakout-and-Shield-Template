@@ -1,0 +1,4 @@
+(footprint "Guide_3.20" (version 20241229)(generator pcbnew)(layer "F.Cu")(attr through_hole)
+      (property "Reference" "REF**" (at 0 -2)(layer "F.SilkS")(hide yes)(effects(font(size 1 1)(thickness .15))))
+      (property "Value" "Guide_3.20" (at 0 2)(layer "F.Fab")(effects(font(size 1 1)(thickness .15))))
+      (pad "" np_thru_hole circle (at 0 0)(size 3.2 3.2)(drill 3.2)(layers "*.Cu" "*.Mask")))

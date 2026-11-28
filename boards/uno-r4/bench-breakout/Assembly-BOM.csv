@@ -1,0 +1,38 @@
+Assembly,Reference,WiFi quantity,Minima quantity,Side,Manufacturer,Orderable part or item,Installation
+Carrier,J1,1,1,Top,SparkFun,PRT-11417 [10],Long tails toward Arduino; purchase one kit for J1–J4
+Carrier,H1,1,1,Top,Samtec,TSW-110-07-G-S,Male header to upper shield
+Carrier,TB1,1,1,Top,Phoenix Contact,1725737,2.54 mm screw terminal
+Carrier,J2,1,1,Top,SparkFun,PRT-11417 [8],Long tails toward Arduino; purchase one kit for J1–J4
+Carrier,H2,1,1,Top,Samtec,TSW-108-07-G-S,Male header to upper shield
+Carrier,TB2,1,1,Top,Phoenix Contact,1725711,2.54 mm screw terminal
+Carrier,J3,1,1,Top,SparkFun,PRT-11417 [8],Long tails toward Arduino; purchase one kit for J1–J4
+Carrier,H3,1,1,Top,Samtec,TSW-108-07-G-S,Male header to upper shield
+Carrier,TB3,1,1,Top,Phoenix Contact,1725711,2.54 mm screw terminal
+Carrier,J4,1,1,Top,SparkFun,PRT-11417 [6],Long tails toward Arduino; purchase one kit for J1–J4
+Carrier,H4,1,1,Top,Samtec,TSW-106-07-G-S,Male header to upper shield
+Carrier,TB4,1,1,Top,Phoenix Contact,1725698,2.54 mm screw terminal
+Carrier,J5,1,1,Bottom,Samtec,SSW-103-01-G-D,Female socket faces Arduino
+Carrier,H5,1,1,Top,Samtec,TSW-106-07-G-S,Male header to upper shield
+Carrier,TB5,1,1,Top,Phoenix Contact,1725698,2.54 mm screw terminal
+Carrier,J6,optional,—,Top,Samtec,TSW-103-07-G-S,Optional duplicate top service connector
+Carrier,H6,1,1,Top,Samtec,TSW-103-07-G-S,Male header to upper shield
+Carrier,TB6,1,1,Top,Phoenix Contact,1725669,2.54 mm screw terminal
+Carrier,J7,optional,—,Top,Samtec,TSW-103-07-G-D,Optional duplicate top service connector
+Carrier,H7,1,1,Top,Samtec,TSW-106-07-G-S,Male header to upper shield
+Carrier,TB7,1,1,Top,Phoenix Contact,1725698,2.54 mm screw terminal
+Carrier,J8,optional,—,Top,JST,BM04B-SRSS-TB(LF)(SN),Optional duplicate top service connector
+Carrier,H8,1,1,Top,Samtec,TSW-104-07-G-S,Male header to upper shield
+Carrier,TB8,1,1,Top,Phoenix Contact,1725672,2.54 mm screw terminal
+Carrier,J9,—,optional,Top,Samtec,FTSH-105-01-L-D,Optional duplicate top service connector
+Carrier,H9,1,1,Top,Samtec,TSW-110-07-G-S,Male header to upper shield
+Carrier,TB9,1,1,Top,Phoenix Contact,1725737,2.54 mm screw terminal
+Carrier,J16,1,—,Bottom,Samtec,SSW-103-01-G-S,WiFi JOFF socket
+Carrier,J17,1,—,Bottom,Samtec,SSW-103-01-G-D,WiFi ESP socket
+Carrier,TP81–TP83,3,—,Bottom,Harwin,S13-503,Solder sleeves. Install under a height fixture
+Carrier,TP81–TP83,3,—,Bottom,Harwin,P13-0123,"Replaceable spring probes, 13.35 mm free projection"
+Carrier,R81,1,—,Top,Yageo,RC0805JR-070RL,0 ohm 0805 Qwiic return link
+Carrier + riser,"J19/J20 on carrier, J2/J3 on riser",—,2,Between boards,Samtec,TSW-105-07-G-S,Two strips total. Solder each to both boards
+Riser,J1,—,1,Bottom,Harwin,M50-3000545,Minima J2 SWD mating socket
+Stack,MH5,1,1,Between Arduino and carrier,Green Shoe Garage,Locating-Spacer-Round,Insulating acetal or dimensionally verified finished print
+Stack,MH6,1,1,Between Arduino and carrier,Green Shoe Garage,Locating-Spacer-Diamond,Relief along hole-to-hole axis
+Stack,MH5/MH6,2,2,Guide screws,Metric,M2 x 24 mm in enclosure,Free-standing assembly uses M2 x 18 mm with nuts

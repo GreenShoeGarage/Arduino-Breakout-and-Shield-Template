@@ -1,1 +1,1 @@
-(sym_lib_table (version 7) (lib (name "R4")(type "KiCad")(uri "${KIPRJMOD}/R4.kicad_sym")(options "")(descr "Breakout pin banks")))
+(sym_lib_table (version 7) (lib (name "R4")(type "KiCad")(uri "${KIPRJMOD}/R4.kicad_sym")(options "")(descr "Breakout pin banks"))(lib(name "Dock")(type "KiCad")(uri "${KIPRJMOD}/Dock.kicad_sym")(options "")(descr "")))

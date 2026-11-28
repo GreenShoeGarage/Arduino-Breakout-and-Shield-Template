@@ -1,0 +1,508 @@
+{
+ "pads": [
+  {
+   "ref": "J3",
+   "pin": "1",
+   "net": "/SWD_IO",
+   "xy": [
+    154.0,
+    64.38
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J3",
+   "pin": "2",
+   "net": "/SWD_CLK",
+   "xy": [
+    154.0,
+    61.84
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J3",
+   "pin": "3",
+   "net": "/SWD_NC",
+   "xy": [
+    154.0,
+    59.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J3",
+   "pin": "4",
+   "net": "/SWD_TX1",
+   "xy": [
+    154.0,
+    56.76
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J3",
+   "pin": "5",
+   "net": "/SWD_RST",
+   "xy": [
+    154.0,
+    54.22
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J2",
+   "pin": "1",
+   "net": "/SWD_VT5",
+   "xy": [
+    169.95,
+    64.38
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J2",
+   "pin": "2",
+   "net": "/SWD_G1",
+   "xy": [
+    169.95,
+    61.84
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J2",
+   "pin": "3",
+   "net": "/SWD_G2",
+   "xy": [
+    169.95,
+    59.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J2",
+   "pin": "4",
+   "net": "/SWD_RX1",
+   "xy": [
+    169.95,
+    56.76
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J2",
+   "pin": "5",
+   "net": "/SWD_G3",
+   "xy": [
+    169.95,
+    54.22
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "Rigid carrier posts"
+  },
+  {
+   "ref": "J1",
+   "pin": "1",
+   "net": "/SWD_VT5",
+   "xy": [
+    162.9,
+    61.84002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "2",
+   "net": "/SWD_IO",
+   "xy": [
+    160.36,
+    61.84002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "3",
+   "net": "/SWD_G1",
+   "xy": [
+    162.9,
+    60.57002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "4",
+   "net": "/SWD_CLK",
+   "xy": [
+    160.36,
+    60.57002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "5",
+   "net": "/SWD_G2",
+   "xy": [
+    162.9,
+    59.30002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "6",
+   "net": "/SWD_NC",
+   "xy": [
+    160.36,
+    59.30002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "7",
+   "net": "/SWD_RX1",
+   "xy": [
+    162.9,
+    58.03002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "8",
+   "net": "/SWD_TX1",
+   "xy": [
+    160.36,
+    58.03002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "9",
+   "net": "/SWD_G3",
+   "xy": [
+    162.9,
+    56.76002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  },
+  {
+   "ref": "J1",
+   "pin": "10",
+   "net": "/SWD_RST",
+   "xy": [
+    160.36,
+    56.76002
+   ],
+   "drill": 0.76,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima SWD socket"
+  }
+ ],
+ "holes": [
+  [
+   154.0,
+   64.38,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   61.84,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   59.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   56.76,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   54.22,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   64.38,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   61.84,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   59.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   56.76,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   54.22,
+   1.0,
+   "PTH"
+  ],
+  [
+   162.9,
+   61.84002,
+   0.76,
+   "PTH"
+  ],
+  [
+   160.36,
+   61.84002,
+   0.76,
+   "PTH"
+  ],
+  [
+   162.9,
+   60.57002,
+   0.76,
+   "PTH"
+  ],
+  [
+   160.36,
+   60.57002,
+   0.76,
+   "PTH"
+  ],
+  [
+   162.9,
+   59.30002,
+   0.76,
+   "PTH"
+  ],
+  [
+   160.36,
+   59.30002,
+   0.76,
+   "PTH"
+  ],
+  [
+   162.9,
+   58.03002,
+   0.76,
+   "PTH"
+  ],
+  [
+   160.36,
+   58.03002,
+   0.76,
+   "PTH"
+  ],
+  [
+   162.9,
+   56.76002,
+   0.76,
+   "PTH"
+  ],
+  [
+   160.36,
+   56.76002,
+   0.76,
+   "PTH"
+  ]
+ ],
+ "vias": 0,
+ "tracks": [
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu"
+ ],
+ "silk": [
+  {
+   "text": "SWD B",
+   "xy": [
+    160.0,
+    54.3
+   ]
+  },
+  {
+   "text": "1",
+   "xy": [
+    162.4,
+    63.4
+   ]
+  }
+ ]
+}

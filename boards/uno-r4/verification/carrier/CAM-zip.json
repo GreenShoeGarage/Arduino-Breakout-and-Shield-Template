@@ -1,0 +1,166 @@
+{
+  "checker_version": 2,
+  "counts": {
+    "copper_layer_files": 2,
+    "drill_coordinate_records": 250,
+    "drill_files": 2,
+    "errors": 0,
+    "files": 9,
+    "gerber_files": 7,
+    "warnings": 0
+  },
+  "declared_hole_free": false,
+  "errors": [],
+  "fabrication_profile": "oshpark",
+  "files": [
+    {
+      "aperture_definition_count": 13,
+      "bytes": 22253,
+      "coordinate_command_count": 529,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Copper,L2,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-B_Cu.gbl",
+      "role": "B.Cu",
+      "sha256": "493143c22abc0d36ceeba541d6f4716926598182267ddf078b2fd1ef01736260",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 14,
+      "bytes": 8311,
+      "coordinate_command_count": 210,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Soldermask,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-B_Mask.gbs",
+      "role": "B.Mask",
+      "sha256": "891929341c91524469258daa8566b11bf293aee1d7c679d34142130f0b81bc5a",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 3,
+      "bytes": 21910,
+      "coordinate_command_count": 852,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Legend,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-B_Silkscreen.gbo",
+      "role": "B.Silkscreen",
+      "sha256": "202a38de90ab55d101cd47466b68dfa0c94a55894d803e7f560e1a516bf715a6",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 1,
+      "bytes": 1718,
+      "coordinate_command_count": 48,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Profile,NP",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-Edge_Cuts.gm1",
+      "role": "Edge.Cuts",
+      "sha256": "2c4170e2ea88ed80ff3f9b936cf748463c72e46bb1fa5b0aec441a42dec9e9b8",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 18,
+      "bytes": 30523,
+      "coordinate_command_count": 785,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Copper,L1,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-F_Cu.gtl",
+      "role": "F.Cu",
+      "sha256": "8540bf40a8fbdbc8afbcdfc955ee7c3d7422c5fb971d59bb1bafeece909eb23e",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 17,
+      "bytes": 8876,
+      "coordinate_command_count": 218,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Soldermask,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-F_Mask.gts",
+      "role": "F.Mask",
+      "sha256": "e4438807c16950271cb09c1f8fd74833b67216370e9ca47653b87c5966725aab",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 9,
+      "bytes": 231164,
+      "coordinate_command_count": 9084,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Legend,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-Breakout-F_Silkscreen.gto",
+      "role": "F.Silkscreen",
+      "sha256": "87b1b01550490f9caa6db04659bec909448bdd07ec5b0cd0567996cb61cca9bf",
+      "units": "mm"
+    },
+    {
+      "bytes": 544,
+      "coordinate_record_count": 9,
+      "kind": "excellon",
+      "name": "UNO-R4-Breakout-NPTH.drl",
+      "plating": "NPTH",
+      "role": "drill",
+      "sha256": "9c29422742d0e0e6832457d8b8fde78c83942c6ec9ecdbec3f2a83e15f628666",
+      "slot_record_count": 0,
+      "tool_count": 2,
+      "units": "mm"
+    },
+    {
+      "bytes": 4043,
+      "coordinate_record_count": 241,
+      "kind": "excellon",
+      "name": "UNO-R4-Breakout-PTH.drl",
+      "plating": "PTH",
+      "role": "drill",
+      "sha256": "a53c96ffb76097d69358bf5d02038a3c083dc31e301c78aab236911dd0ed6a54",
+      "slot_record_count": 0,
+      "tool_count": 5,
+      "units": "mm"
+    }
+  ],
+  "layer_count_meaning": "fabricated copper layers",
+  "manual_checks_required": [
+    "Reopen the final ZIP in a CAM viewer; inspect every layer and drill overlay.",
+    "Verify board outline closure, cutouts, slots, polarity, dimensions, and layer order.",
+    "Verify the selected OSH Park service rules with current official documentation.",
+    "Check saved, zone-filled source with ERC, DRC, schematic parity, and electrical review.",
+    "Inspect the actual OSH Park upload preview before authorizing fabrication."
+  ],
+  "requested_copper_layers": 2,
+  "scope": "Structural packaging checks only. No geometry, dimensions, alignment, connectivity, design-rule, manufacturability, or electrical-function validation.",
+  "source": "/workspace/scratch/5bcafcbb870a/revb/carrier/UNO-R4-Direct-Breakout-RevB-OSH-Park.zip",
+  "status": "structural_pass",
+  "warnings": []
+}

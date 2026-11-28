@@ -1,0 +1,59 @@
+{
+  "source": "Arduino ABX00087 official CAD manufacturing Gerbers",
+  "file_sha256": {
+    "PCB.GTL": "a8162017091790ebae209442e5cdbfe9c0ef3147fb055609e8d04674b93a7ef1",
+    "PCB.GTS": "b2b43809672f0bef2a188d2097d1a1277bde3d1ab842de7afe7dd2fcf227bade",
+    "wifi-cad.zip": "f1cbf8ff9c6b469b43abdb42467f4938ebc089be70a7e387869801806ac2df21",
+    "min-cad.zip": "37d7bcab7a6048619abdecee6d41582b825c3a1d045bb26821c1e36dcbd9ce26"
+  },
+  "targets": {
+    "3V3_IC": {
+      "net": "+3V3_I2C",
+      "probe": "TP81",
+      "projected_tip_gerber_mm": [
+        63.49999,
+        10.499979999999994
+      ],
+      "top_copper": {
+        "diameter_mm": 0.8001,
+        "nominal_tip_to_edge_mm": 0.40003
+      },
+      "top_mask_opening": {
+        "diameter_mm": 0.9001,
+        "nominal_tip_to_edge_mm": 0.45003
+      }
+    },
+    "EXT_SDA": {
+      "net": "EXT_SDA_1",
+      "probe": "TP82",
+      "projected_tip_gerber_mm": [
+        62.26952,
+        16.670969999999997
+      ],
+      "top_copper": {
+        "diameter_mm": 0.8001,
+        "nominal_tip_to_edge_mm": 0.24502
+      },
+      "top_mask_opening": {
+        "diameter_mm": 0.9001,
+        "nominal_tip_to_edge_mm": 0.29502
+      }
+    },
+    "EXT_SCL": {
+      "net": "EXT_SCL_1",
+      "probe": "TP83",
+      "projected_tip_gerber_mm": [
+        62.26952,
+        18.250969999999995
+      ],
+      "top_copper": {
+        "diameter_mm": 0.8001,
+        "nominal_tip_to_edge_mm": 0.24508
+      },
+      "top_mask_opening": {
+        "diameter_mm": 0.9001,
+        "nominal_tip_to_edge_mm": 0.29508
+      }
+    }
+  }
+}

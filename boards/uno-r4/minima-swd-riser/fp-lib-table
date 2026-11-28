@@ -1,0 +1,1 @@
+(fp_lib_table(version 7)(lib(name "Dock")(type "KiCad")(uri "${KIPRJMOD}/Dock.pretty")(options "")(descr ""))(lib(name "Connector_PinHeader_2.54mm")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connector_PinHeader_2.54mm.pretty")(options "")(descr "")))

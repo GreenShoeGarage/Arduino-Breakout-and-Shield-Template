@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/5bcafcbb870a/revb/riser/UNO-R4-SWD-Riser.kicad_sch</source>
+    <date>2026-11-27T20:17:47-0500</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UNO R4 Minima | Direct SWD riser</title>
+        <company>Green Shoe Garage</company>
+        <rev>B</rev>
+        <date/>
+        <source>UNO-R4-SWD-Riser.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Minima SWD socket</value>
+      <footprint>Dock:Harwin_M50-3000545</footprint>
+      <fields>
+        <field name="MPN">M50-3000545</field>
+        <field name="Footprint">Dock:Harwin_M50-3000545</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J1" description=""/>
+      <property name="MPN" value="M50-3000545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-SWD-Riser.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e6bb991-394b-594f-9112-c906d0a0ab2a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Rigid carrier posts</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-105-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J2" description=""/>
+      <property name="MPN" value="TSW-105-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-SWD-Riser.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b57254c-ce94-563b-bc04-e26fea1e7628</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Rigid carrier posts</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">TSW-105-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Dock" part="Dock_J3" description=""/>
+      <property name="MPN" value="TSW-105-07-G-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UNO-R4-SWD-Riser.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0af4a721-8b83-55ee-90f6-7f25235e6e39</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Dock" part="Dock_J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dock" part="Dock_J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Dock_J3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Dock">
+      <uri>/workspace/scratch/5bcafcbb870a/revb/riser/Dock.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SWD_CLK" class="Default">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/SWD_G1" class="Default">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/SWD_G2" class="Default">
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+    </net>
+    <net code="4" name="/SWD_G3" class="Default">
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+    </net>
+    <net code="5" name="/SWD_IO" class="Default">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/SWD_NC" class="Default">
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+    </net>
+    <net code="7" name="/SWD_RST" class="Default">
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="J3" pin="5" pintype="passive"/>
+    </net>
+    <net code="8" name="/SWD_RX1" class="Default">
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+    </net>
+    <net code="9" name="/SWD_TX1" class="Default">
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="J3" pin="4" pintype="passive"/>
+    </net>
+    <net code="10" name="/SWD_VT5" class="Default">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,6 @@
+(footprint "Probe_S13" (version 20241229)(generator pcbnew)(layer "F.Cu")(attr through_hole)
+      (property "Reference" "REF**" (at 0 -2)(layer "F.SilkS")(hide yes)(effects(font(size 1 1)(thickness .15))))
+      (property "Value" "Probe_S13" (at 0 2)(layer "F.Fab")(effects(font(size 1 1)(thickness .15))))
+      (pad "1" thru_hole circle (at 0 0)(size 1.27 1.27)(drill 0.95)(layers "*.Cu" "*.Mask"))
+ (model "${KIPRJMOD}/models/S13-503-P13-0123-seated.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

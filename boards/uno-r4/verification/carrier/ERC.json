@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-27T20:17:44-0500",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5efca502-138f-55b7-ab7c-057dec085d52",
+            "violations": []
+        }
+    ],
+    "source": "UNO-R4-Breakout.kicad_sch"
+}

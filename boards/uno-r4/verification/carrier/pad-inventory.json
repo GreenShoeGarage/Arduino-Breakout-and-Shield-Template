@@ -1,0 +1,6008 @@
+{
+ "pads": [
+  {
+   "ref": "TB2",
+   "pin": "1",
+   "net": "/D0_RX",
+   "xy": [
+    163.5,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "2",
+   "net": "/D1_TX",
+   "xy": [
+    160.96,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "3",
+   "net": "/D2",
+   "xy": [
+    158.42,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "4",
+   "net": "/D3",
+   "xy": [
+    155.88,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "5",
+   "net": "/D4",
+   "xy": [
+    153.34,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "6",
+   "net": "/D5",
+   "xy": [
+    150.8,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "7",
+   "net": "/D6",
+   "xy": [
+    148.26,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB2",
+   "pin": "8",
+   "net": "/D7",
+   "xy": [
+    145.72,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "1",
+   "net": "/SPI_GND",
+   "xy": [
+    209.0,
+    78.9
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "2",
+   "net": "/SPI_RST",
+   "xy": [
+    209.0,
+    76.36
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "3",
+   "net": "/SPI_COPI",
+   "xy": [
+    209.0,
+    73.82
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "4",
+   "net": "/SPI_SCK",
+   "xy": [
+    209.0,
+    71.28
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "5",
+   "net": "/SPI_5V",
+   "xy": [
+    209.0,
+    68.74
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "TB5",
+   "pin": "6",
+   "net": "/SPI_CIPO",
+   "xy": [
+    209.0,
+    66.2
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI screws"
+  },
+  {
+   "ref": "R81",
+   "pin": "1",
+   "net": "/SPI_GND",
+   "xy": [
+    181.0,
+    63.3
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "0R WiFi ground"
+  },
+  {
+   "ref": "R81",
+   "pin": "2",
+   "net": "/Q_GND",
+   "xy": [
+    182.825,
+    63.3
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "0R WiFi ground"
+  },
+  {
+   "ref": "H2",
+   "pin": "1",
+   "net": "/D7",
+   "xy": [
+    145.72,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "2",
+   "net": "/D6",
+   "xy": [
+    148.26,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "3",
+   "net": "/D5",
+   "xy": [
+    150.8,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "4",
+   "net": "/D4",
+   "xy": [
+    153.34,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "5",
+   "net": "/D3",
+   "xy": [
+    155.88,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "6",
+   "net": "/D2",
+   "xy": [
+    158.42,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "7",
+   "net": "/D1_TX",
+   "xy": [
+    160.96,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H2",
+   "pin": "8",
+   "net": "/D0_RX",
+   "xy": [
+    163.5,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "1",
+   "net": "/BOOT",
+   "xy": [
+    127.94,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "2",
+   "net": "/IOREF",
+   "xy": [
+    130.48,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "3",
+   "net": "/RESET",
+   "xy": [
+    133.02,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "4",
+   "net": "/P3V3",
+   "xy": [
+    135.56,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "5",
+   "net": "/P5V",
+   "xy": [
+    138.1,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "6",
+   "net": "/PGND1",
+   "xy": [
+    140.64,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "7",
+   "net": "/PGND2",
+   "xy": [
+    143.18,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "H3",
+   "pin": "8",
+   "net": "/VIN",
+   "xy": [
+    145.72,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW jumper"
+  },
+  {
+   "ref": "J9",
+   "pin": "1",
+   "net": "/SWD_VT5",
+   "xy": [
+    176.8,
+    101.065
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "2",
+   "net": "/SWD_IO",
+   "xy": [
+    176.8,
+    99.795
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "3",
+   "net": "/SWD_G1",
+   "xy": [
+    178.07,
+    101.065
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "4",
+   "net": "/SWD_CLK",
+   "xy": [
+    178.07,
+    99.795
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "5",
+   "net": "/SWD_G2",
+   "xy": [
+    179.34,
+    101.065
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "6",
+   "net": "/SWD_NC",
+   "xy": [
+    179.34,
+    99.795
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "7",
+   "net": "/SWD_RX1",
+   "xy": [
+    180.61,
+    101.065
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "8",
+   "net": "/SWD_TX1",
+   "xy": [
+    180.61,
+    99.795
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "9",
+   "net": "/SWD_G3",
+   "xy": [
+    181.88,
+    101.065
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J9",
+   "pin": "10",
+   "net": "/SWD_RST",
+   "xy": [
+    181.88,
+    99.795
+   ],
+   "drill": 0.71,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD input"
+  },
+  {
+   "ref": "J8",
+   "pin": "1",
+   "net": "/Q_GND",
+   "xy": [
+    178.075,
+    52.81
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "J8",
+   "pin": "2",
+   "net": "/Q_3V3",
+   "xy": [
+    178.075,
+    53.81
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "J8",
+   "pin": "3",
+   "net": "/Q_SDA",
+   "xy": [
+    178.075,
+    54.81
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "J8",
+   "pin": "4",
+   "net": "/Q_SCL",
+   "xy": [
+    178.075,
+    55.81
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "J8",
+   "pin": "MP",
+   "net": "/Q_GND",
+   "xy": [
+    180.6,
+    51.51
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "J8",
+   "pin": "MP",
+   "net": "/Q_GND",
+   "xy": [
+    180.6,
+    57.11
+   ],
+   "drill": 0.0,
+   "copper": [
+    "F"
+   ],
+   "mount": "F.Cu",
+   "part": "QW input"
+  },
+  {
+   "ref": "H5",
+   "pin": "1",
+   "net": "/SPI_CIPO",
+   "xy": [
+    193.5,
+    66.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "H5",
+   "pin": "2",
+   "net": "/SPI_5V",
+   "xy": [
+    193.5,
+    68.74
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "H5",
+   "pin": "3",
+   "net": "/SPI_SCK",
+   "xy": [
+    193.5,
+    71.28
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "H5",
+   "pin": "4",
+   "net": "/SPI_COPI",
+   "xy": [
+    193.5,
+    73.82
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "H5",
+   "pin": "5",
+   "net": "/SPI_RST",
+   "xy": [
+    193.5,
+    76.36
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "H5",
+   "pin": "6",
+   "net": "/SPI_GND",
+   "xy": [
+    193.5,
+    78.9
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SPI jumper"
+  },
+  {
+   "ref": "J2",
+   "pin": "1",
+   "net": "/D7",
+   "xy": [
+    145.72,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "2",
+   "net": "/D6",
+   "xy": [
+    148.26,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "3",
+   "net": "/D5",
+   "xy": [
+    150.8,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "4",
+   "net": "/D4",
+   "xy": [
+    153.34,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "5",
+   "net": "/D3",
+   "xy": [
+    155.88,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "6",
+   "net": "/D2",
+   "xy": [
+    158.42,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "7",
+   "net": "/D1_TX",
+   "xy": [
+    160.96,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "J2",
+   "pin": "8",
+   "net": "/D0_RX",
+   "xy": [
+    163.5,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DL input"
+  },
+  {
+   "ref": "H8",
+   "pin": "1",
+   "net": "/Q_GND",
+   "xy": [
+    193.5,
+    50.5
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW jumper"
+  },
+  {
+   "ref": "H8",
+   "pin": "2",
+   "net": "/Q_3V3",
+   "xy": [
+    193.5,
+    53.04
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW jumper"
+  },
+  {
+   "ref": "H8",
+   "pin": "3",
+   "net": "/Q_SDA",
+   "xy": [
+    193.5,
+    55.58
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW jumper"
+  },
+  {
+   "ref": "H8",
+   "pin": "4",
+   "net": "/Q_SCL",
+   "xy": [
+    193.5,
+    58.12
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW jumper"
+  },
+  {
+   "ref": "J1",
+   "pin": "1",
+   "net": "/SCL",
+   "xy": [
+    118.796,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "2",
+   "net": "/SDA",
+   "xy": [
+    121.336,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "3",
+   "net": "/AREF",
+   "xy": [
+    123.876,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "4",
+   "net": "/DGND",
+   "xy": [
+    126.416,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "5",
+   "net": "/D13",
+   "xy": [
+    128.956,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "6",
+   "net": "/D12",
+   "xy": [
+    131.496,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "7",
+   "net": "/D11",
+   "xy": [
+    134.036,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "8",
+   "net": "/D10",
+   "xy": [
+    136.576,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "9",
+   "net": "/D9",
+   "xy": [
+    139.116,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "J1",
+   "pin": "10",
+   "net": "/D8",
+   "xy": [
+    141.656,
+    49.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH input"
+  },
+  {
+   "ref": "H4",
+   "pin": "1",
+   "net": "/A0_DAC",
+   "xy": [
+    150.8,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H4",
+   "pin": "2",
+   "net": "/A1",
+   "xy": [
+    153.34,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H4",
+   "pin": "3",
+   "net": "/A2",
+   "xy": [
+    155.88,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H4",
+   "pin": "4",
+   "net": "/A3",
+   "xy": [
+    158.42,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H4",
+   "pin": "5",
+   "net": "/A4_SDA",
+   "xy": [
+    160.96,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H4",
+   "pin": "6",
+   "net": "/A5_SCL",
+   "xy": [
+    163.5,
+    106.1
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "1",
+   "net": "/ESP_IO41",
+   "xy": [
+    193.5,
+    31.5
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "2",
+   "net": "/ESP_IO0",
+   "xy": [
+    193.5,
+    34.04
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "3",
+   "net": "/ESP_GND",
+   "xy": [
+    193.5,
+    36.58
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "4",
+   "net": "/ESP_RXD",
+   "xy": [
+    193.5,
+    39.12
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "5",
+   "net": "/ESP_TXD",
+   "xy": [
+    193.5,
+    41.66
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "H7",
+   "pin": "6",
+   "net": "/ESP_IO42",
+   "xy": [
+    193.5,
+    44.2
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP jumper"
+  },
+  {
+   "ref": "J4",
+   "pin": "1",
+   "net": "/A0_DAC",
+   "xy": [
+    150.8,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "J4",
+   "pin": "2",
+   "net": "/A1",
+   "xy": [
+    153.34,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "J4",
+   "pin": "3",
+   "net": "/A2",
+   "xy": [
+    155.88,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "J4",
+   "pin": "4",
+   "net": "/A3",
+   "xy": [
+    158.42,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "J4",
+   "pin": "5",
+   "net": "/A4_SDA",
+   "xy": [
+    160.96,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "J4",
+   "pin": "6",
+   "net": "/A5_SCL",
+   "xy": [
+    163.5,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN input"
+  },
+  {
+   "ref": "TB8",
+   "pin": "1",
+   "net": "/Q_SCL",
+   "xy": [
+    209.0,
+    58.12
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW screws"
+  },
+  {
+   "ref": "TB8",
+   "pin": "2",
+   "net": "/Q_SDA",
+   "xy": [
+    209.0,
+    55.58
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW screws"
+  },
+  {
+   "ref": "TB8",
+   "pin": "3",
+   "net": "/Q_3V3",
+   "xy": [
+    209.0,
+    53.04
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW screws"
+  },
+  {
+   "ref": "TB8",
+   "pin": "4",
+   "net": "/Q_GND",
+   "xy": [
+    209.0,
+    50.5
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "QW screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "1",
+   "net": "/A0_DAC",
+   "xy": [
+    150.8,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "2",
+   "net": "/A1",
+   "xy": [
+    153.34,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "3",
+   "net": "/A2",
+   "xy": [
+    155.88,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "4",
+   "net": "/A3",
+   "xy": [
+    158.42,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "5",
+   "net": "/A4_SDA",
+   "xy": [
+    160.96,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB4",
+   "pin": "6",
+   "net": "/A5_SCL",
+   "xy": [
+    163.5,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "AN screws"
+  },
+  {
+   "ref": "TB6",
+   "pin": "1",
+   "net": "/RTC_OFF",
+   "xy": [
+    117.78,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC screws"
+  },
+  {
+   "ref": "TB6",
+   "pin": "2",
+   "net": "/RTC_GND",
+   "xy": [
+    120.32,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC screws"
+  },
+  {
+   "ref": "TB6",
+   "pin": "3",
+   "net": "/VRTC",
+   "xy": [
+    122.86,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC screws"
+  },
+  {
+   "ref": "J3",
+   "pin": "1",
+   "net": "/BOOT",
+   "xy": [
+    127.94,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "2",
+   "net": "/IOREF",
+   "xy": [
+    130.48,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "3",
+   "net": "/RESET",
+   "xy": [
+    133.02,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "4",
+   "net": "/P3V3",
+   "xy": [
+    135.56,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "5",
+   "net": "/P5V",
+   "xy": [
+    138.1,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "6",
+   "net": "/PGND1",
+   "xy": [
+    140.64,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "7",
+   "net": "/PGND2",
+   "xy": [
+    143.18,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J3",
+   "pin": "8",
+   "net": "/VIN",
+   "xy": [
+    145.72,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW input"
+  },
+  {
+   "ref": "J6",
+   "pin": "1",
+   "net": "/RTC_OFF",
+   "xy": [
+    117.78,
+    103.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC input"
+  },
+  {
+   "ref": "J6",
+   "pin": "2",
+   "net": "/RTC_GND",
+   "xy": [
+    120.32,
+    103.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC input"
+  },
+  {
+   "ref": "J6",
+   "pin": "3",
+   "net": "/VRTC",
+   "xy": [
+    122.86,
+    103.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC input"
+  },
+  {
+   "ref": "TB1",
+   "pin": "1",
+   "net": "/D8",
+   "xy": [
+    141.656,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "2",
+   "net": "/D9",
+   "xy": [
+    139.116,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "3",
+   "net": "/D10",
+   "xy": [
+    136.576,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "4",
+   "net": "/D11",
+   "xy": [
+    134.036,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "5",
+   "net": "/D12",
+   "xy": [
+    131.496,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "6",
+   "net": "/D13",
+   "xy": [
+    128.956,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "7",
+   "net": "/DGND",
+   "xy": [
+    126.416,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "8",
+   "net": "/AREF",
+   "xy": [
+    123.876,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "9",
+   "net": "/SDA",
+   "xy": [
+    121.336,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB1",
+   "pin": "10",
+   "net": "/SCL",
+   "xy": [
+    118.796,
+    28.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "1",
+   "net": "/BOOT",
+   "xy": [
+    127.94,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "2",
+   "net": "/IOREF",
+   "xy": [
+    130.48,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "3",
+   "net": "/RESET",
+   "xy": [
+    133.02,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "4",
+   "net": "/P3V3",
+   "xy": [
+    135.56,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "5",
+   "net": "/P5V",
+   "xy": [
+    138.1,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "6",
+   "net": "/PGND1",
+   "xy": [
+    140.64,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "7",
+   "net": "/PGND2",
+   "xy": [
+    143.18,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB3",
+   "pin": "8",
+   "net": "/VIN",
+   "xy": [
+    145.72,
+    117.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "PW screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "1",
+   "net": "/SWD_VT5",
+   "xy": [
+    209.0,
+    111.86
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "2",
+   "net": "/SWD_G1",
+   "xy": [
+    209.0,
+    109.32
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "3",
+   "net": "/SWD_G2",
+   "xy": [
+    209.0,
+    106.78
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "4",
+   "net": "/SWD_RX1",
+   "xy": [
+    209.0,
+    104.24
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "5",
+   "net": "/SWD_G3",
+   "xy": [
+    209.0,
+    101.7
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "6",
+   "net": "/SWD_RST",
+   "xy": [
+    209.0,
+    99.16
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "7",
+   "net": "/SWD_TX1",
+   "xy": [
+    209.0,
+    96.62
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "8",
+   "net": "/SWD_NC",
+   "xy": [
+    209.0,
+    94.08
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "9",
+   "net": "/SWD_CLK",
+   "xy": [
+    209.0,
+    91.54
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "TB9",
+   "pin": "10",
+   "net": "/SWD_IO",
+   "xy": [
+    209.0,
+    89.0
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD screws"
+  },
+  {
+   "ref": "H6",
+   "pin": "1",
+   "net": "/RTC_OFF",
+   "xy": [
+    117.78,
+    107.7
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC jumper"
+  },
+  {
+   "ref": "H6",
+   "pin": "2",
+   "net": "/RTC_GND",
+   "xy": [
+    120.32,
+    107.7
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC jumper"
+  },
+  {
+   "ref": "H6",
+   "pin": "3",
+   "net": "/VRTC",
+   "xy": [
+    122.86,
+    107.7
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "RTC jumper"
+  },
+  {
+   "ref": "TB7",
+   "pin": "1",
+   "net": "/ESP_IO42",
+   "xy": [
+    209.0,
+    44.2
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "TB7",
+   "pin": "2",
+   "net": "/ESP_TXD",
+   "xy": [
+    209.0,
+    41.66
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "TB7",
+   "pin": "3",
+   "net": "/ESP_RXD",
+   "xy": [
+    209.0,
+    39.12
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "TB7",
+   "pin": "4",
+   "net": "/ESP_GND",
+   "xy": [
+    209.0,
+    36.58
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "TB7",
+   "pin": "5",
+   "net": "/ESP_IO0",
+   "xy": [
+    209.0,
+    34.04
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "TB7",
+   "pin": "6",
+   "net": "/ESP_IO41",
+   "xy": [
+    209.0,
+    31.5
+   ],
+   "drill": 1.1,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP screws"
+  },
+  {
+   "ref": "H9",
+   "pin": "1",
+   "net": "/SWD_IO",
+   "xy": [
+    193.5,
+    89.0
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "2",
+   "net": "/SWD_CLK",
+   "xy": [
+    193.5,
+    91.54
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "3",
+   "net": "/SWD_NC",
+   "xy": [
+    193.5,
+    94.08
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "4",
+   "net": "/SWD_TX1",
+   "xy": [
+    193.5,
+    96.62
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "5",
+   "net": "/SWD_RST",
+   "xy": [
+    193.5,
+    99.16
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "6",
+   "net": "/SWD_G3",
+   "xy": [
+    193.5,
+    101.7
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "7",
+   "net": "/SWD_RX1",
+   "xy": [
+    193.5,
+    104.24
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "8",
+   "net": "/SWD_G2",
+   "xy": [
+    193.5,
+    106.78
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "9",
+   "net": "/SWD_G1",
+   "xy": [
+    193.5,
+    109.32
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "H9",
+   "pin": "10",
+   "net": "/SWD_VT5",
+   "xy": [
+    193.5,
+    111.86
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "SWD jumper"
+  },
+  {
+   "ref": "J7",
+   "pin": "1",
+   "net": "/ESP_IO42",
+   "xy": [
+    175.5,
+    39.12
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "J7",
+   "pin": "2",
+   "net": "/ESP_IO41",
+   "xy": [
+    175.5,
+    36.58
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "J7",
+   "pin": "3",
+   "net": "/ESP_TXD",
+   "xy": [
+    178.04,
+    39.12
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "J7",
+   "pin": "4",
+   "net": "/ESP_IO0",
+   "xy": [
+    178.04,
+    36.58
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "J7",
+   "pin": "5",
+   "net": "/ESP_RXD",
+   "xy": [
+    180.58,
+    39.12
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "J7",
+   "pin": "6",
+   "net": "/ESP_GND",
+   "xy": [
+    180.58,
+    36.58
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "ESP input"
+  },
+  {
+   "ref": "H1",
+   "pin": "1",
+   "net": "/SCL",
+   "xy": [
+    118.796,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "2",
+   "net": "/SDA",
+   "xy": [
+    121.336,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "3",
+   "net": "/AREF",
+   "xy": [
+    123.876,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "4",
+   "net": "/DGND",
+   "xy": [
+    126.416,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "5",
+   "net": "/D13",
+   "xy": [
+    128.956,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "6",
+   "net": "/D12",
+   "xy": [
+    131.496,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "7",
+   "net": "/D11",
+   "xy": [
+    134.036,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "8",
+   "net": "/D10",
+   "xy": [
+    136.576,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "9",
+   "net": "/D9",
+   "xy": [
+    139.116,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "H1",
+   "pin": "10",
+   "net": "/D8",
+   "xy": [
+    141.656,
+    40.8
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "F.Cu",
+   "part": "DH jumper"
+  },
+  {
+   "ref": "J16",
+   "pin": "1",
+   "net": "/RTC_OFF",
+   "xy": [
+    117.78,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "JOFF direct socket"
+  },
+  {
+   "ref": "J16",
+   "pin": "2",
+   "net": "/RTC_GND",
+   "xy": [
+    120.32,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "JOFF direct socket"
+  },
+  {
+   "ref": "J16",
+   "pin": "3",
+   "net": "/VRTC",
+   "xy": [
+    122.86,
+    97.46
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "JOFF direct socket"
+  },
+  {
+   "ref": "TP81",
+   "pin": "1",
+   "net": "/Q_3V3",
+   "xy": [
+    163.49999,
+    89.50002
+   ],
+   "drill": 0.95,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "3V3_IC pickup"
+  },
+  {
+   "ref": "TP83",
+   "pin": "1",
+   "net": "/Q_SCL",
+   "xy": [
+    162.26952,
+    81.74903
+   ],
+   "drill": 0.95,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "EXT_SCL pickup"
+  },
+  {
+   "ref": "J20",
+   "pin": "1",
+   "net": "/SWD_IO",
+   "xy": [
+    154.0,
+    64.38
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J20",
+   "pin": "2",
+   "net": "/SWD_CLK",
+   "xy": [
+    154.0,
+    61.84
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J20",
+   "pin": "3",
+   "net": "/SWD_NC",
+   "xy": [
+    154.0,
+    59.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J20",
+   "pin": "4",
+   "net": "/SWD_TX1",
+   "xy": [
+    154.0,
+    56.76
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J20",
+   "pin": "5",
+   "net": "/SWD_RST",
+   "xy": [
+    154.0,
+    54.22
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J19",
+   "pin": "1",
+   "net": "/SWD_VT5",
+   "xy": [
+    169.95,
+    64.38
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J19",
+   "pin": "2",
+   "net": "/SWD_G1",
+   "xy": [
+    169.95,
+    61.84
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J19",
+   "pin": "3",
+   "net": "/SWD_G2",
+   "xy": [
+    169.95,
+    59.3
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J19",
+   "pin": "4",
+   "net": "/SWD_RX1",
+   "xy": [
+    169.95,
+    56.76
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "J19",
+   "pin": "5",
+   "net": "/SWD_G3",
+   "xy": [
+    169.95,
+    54.22
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "Minima riser tails"
+  },
+  {
+   "ref": "TP82",
+   "pin": "1",
+   "net": "/Q_SDA",
+   "xy": [
+    162.26952,
+    83.32903
+   ],
+   "drill": 0.95,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "EXT_SDA pickup"
+  },
+  {
+   "ref": "J17",
+   "pin": "1",
+   "net": "/ESP_IO42",
+   "xy": [
+    121.336,
+    56.766
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J17",
+   "pin": "2",
+   "net": "/ESP_IO41",
+   "xy": [
+    121.336,
+    59.306
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J17",
+   "pin": "3",
+   "net": "/ESP_TXD",
+   "xy": [
+    118.796,
+    56.766
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J17",
+   "pin": "4",
+   "net": "/ESP_IO0",
+   "xy": [
+    118.796,
+    59.306
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J17",
+   "pin": "5",
+   "net": "/ESP_RXD",
+   "xy": [
+    116.256,
+    56.766
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J17",
+   "pin": "6",
+   "net": "/ESP_GND",
+   "xy": [
+    116.256,
+    59.306
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "J6 direct socket"
+  },
+  {
+   "ref": "J5",
+   "pin": "1",
+   "net": "/SPI_CIPO",
+   "xy": [
+    163.627,
+    69.52
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  },
+  {
+   "ref": "J5",
+   "pin": "2",
+   "net": "/SPI_5V",
+   "xy": [
+    166.167,
+    69.52
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  },
+  {
+   "ref": "J5",
+   "pin": "3",
+   "net": "/SPI_SCK",
+   "xy": [
+    163.627,
+    72.06
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  },
+  {
+   "ref": "J5",
+   "pin": "4",
+   "net": "/SPI_COPI",
+   "xy": [
+    166.167,
+    72.06
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  },
+  {
+   "ref": "J5",
+   "pin": "5",
+   "net": "/SPI_RST",
+   "xy": [
+    163.627,
+    74.6
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  },
+  {
+   "ref": "J5",
+   "pin": "6",
+   "net": "/SPI_GND",
+   "xy": [
+    166.167,
+    74.6
+   ],
+   "drill": 1.0,
+   "copper": [
+    "F",
+    "B"
+   ],
+   "mount": "B.Cu",
+   "part": "SPI input"
+  }
+ ],
+ "holes": [
+  [
+   163.5,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   160.96,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   158.42,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   155.88,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   153.34,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   150.8,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   148.26,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   145.72,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   111.6,
+   111.35,
+   3.2,
+   "NPTH"
+  ],
+  [
+   209.0,
+   78.9,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   76.36,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   73.82,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   71.28,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   68.74,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   66.2,
+   1.1,
+   "PTH"
+  ],
+  [
+   145.72,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   148.26,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   150.8,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   153.34,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   155.88,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   158.42,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   160.96,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.5,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   127.94,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   130.48,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   133.02,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   135.56,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   138.1,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   140.64,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   143.18,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   145.72,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   176.8,
+   101.065,
+   0.71,
+   "PTH"
+  ],
+  [
+   176.8,
+   99.795,
+   0.71,
+   "PTH"
+  ],
+  [
+   178.07,
+   101.065,
+   0.71,
+   "PTH"
+  ],
+  [
+   178.07,
+   99.795,
+   0.71,
+   "PTH"
+  ],
+  [
+   179.34,
+   101.065,
+   0.71,
+   "PTH"
+  ],
+  [
+   179.34,
+   99.795,
+   0.71,
+   "PTH"
+  ],
+  [
+   180.61,
+   101.065,
+   0.71,
+   "PTH"
+  ],
+  [
+   180.61,
+   99.795,
+   0.71,
+   "PTH"
+  ],
+  [
+   181.88,
+   101.065,
+   0.71,
+   "PTH"
+  ],
+  [
+   181.88,
+   99.795,
+   0.71,
+   "PTH"
+  ],
+  [
+   173.2,
+   117.7,
+   3.2,
+   "NPTH"
+  ],
+  [
+   166.04,
+   64.44,
+   3.2,
+   "NPTH"
+  ],
+  [
+   193.5,
+   66.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   68.74,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   71.28,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   73.82,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   76.36,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   78.9,
+   1.0,
+   "PTH"
+  ],
+  [
+   145.72,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   148.26,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   150.8,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   153.34,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   155.88,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   158.42,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   160.96,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.5,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   50.5,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   53.04,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   55.58,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   58.12,
+   1.0,
+   "PTH"
+  ],
+  [
+   114.2,
+   36.5,
+   3.2,
+   "NPTH"
+  ],
+  [
+   118.796,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   121.336,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   123.876,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   126.416,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   128.956,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   131.496,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   134.036,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   136.576,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   139.116,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   141.656,
+   49.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   173.2,
+   28.5,
+   3.2,
+   "NPTH"
+  ],
+  [
+   150.8,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   153.34,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   155.88,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   158.42,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   160.96,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.5,
+   106.1,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   31.5,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   34.04,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   36.58,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   39.12,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   41.66,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   44.2,
+   1.0,
+   "PTH"
+  ],
+  [
+   150.8,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   153.34,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   155.88,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   158.42,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   160.96,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.5,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   209.0,
+   58.12,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   55.58,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   53.04,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   50.5,
+   1.1,
+   "PTH"
+  ],
+  [
+   150.8,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   153.34,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   155.88,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   158.42,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   160.96,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   163.5,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   117.78,
+   119.54,
+   1.1,
+   "NPTH"
+  ],
+  [
+   120.32,
+   119.54,
+   1.1,
+   "NPTH"
+  ],
+  [
+   122.86,
+   119.54,
+   1.1,
+   "NPTH"
+  ],
+  [
+   117.78,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   120.32,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   122.86,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   127.94,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   130.48,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   133.02,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   135.56,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   138.1,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   140.64,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   143.18,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   145.72,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   117.78,
+   103.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   120.32,
+   103.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   122.86,
+   103.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   141.656,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   139.116,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   136.576,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   134.036,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   131.496,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   128.956,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   126.416,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   123.876,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   121.336,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   118.796,
+   28.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   127.94,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   130.48,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   133.02,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   135.56,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   138.1,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   140.64,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   143.18,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   145.72,
+   117.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   111.86,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   109.32,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   106.78,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   104.24,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   101.7,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   99.16,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   96.62,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   94.08,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   91.54,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   89.0,
+   1.1,
+   "PTH"
+  ],
+  [
+   117.78,
+   107.7,
+   1.0,
+   "PTH"
+  ],
+  [
+   120.32,
+   107.7,
+   1.0,
+   "PTH"
+  ],
+  [
+   122.86,
+   107.7,
+   1.0,
+   "PTH"
+  ],
+  [
+   209.0,
+   44.2,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   41.66,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   39.12,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   36.58,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   34.04,
+   1.1,
+   "PTH"
+  ],
+  [
+   209.0,
+   31.5,
+   1.1,
+   "PTH"
+  ],
+  [
+   193.5,
+   89.0,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   91.54,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   94.08,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   96.62,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   99.16,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   101.7,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   104.24,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   106.78,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   109.32,
+   1.0,
+   "PTH"
+  ],
+  [
+   193.5,
+   111.86,
+   1.0,
+   "PTH"
+  ],
+  [
+   175.5,
+   39.12,
+   1.0,
+   "PTH"
+  ],
+  [
+   175.5,
+   36.58,
+   1.0,
+   "PTH"
+  ],
+  [
+   178.04,
+   39.12,
+   1.0,
+   "PTH"
+  ],
+  [
+   178.04,
+   36.58,
+   1.0,
+   "PTH"
+  ],
+  [
+   180.58,
+   39.12,
+   1.0,
+   "PTH"
+  ],
+  [
+   180.58,
+   36.58,
+   1.0,
+   "PTH"
+  ],
+  [
+   166.04,
+   92.38,
+   3.2,
+   "NPTH"
+  ],
+  [
+   118.796,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   121.336,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   123.876,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   126.416,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   128.956,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   131.496,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   134.036,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   136.576,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   139.116,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   141.656,
+   40.8,
+   1.0,
+   "PTH"
+  ],
+  [
+   117.78,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   120.32,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   122.86,
+   97.46,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.49999,
+   89.50002,
+   0.95,
+   "PTH"
+  ],
+  [
+   162.26952,
+   81.74903,
+   0.95,
+   "PTH"
+  ],
+  [
+   154.0,
+   64.38,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   61.84,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   59.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   56.76,
+   1.0,
+   "PTH"
+  ],
+  [
+   154.0,
+   54.22,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   64.38,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   61.84,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   59.3,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   56.76,
+   1.0,
+   "PTH"
+  ],
+  [
+   169.95,
+   54.22,
+   1.0,
+   "PTH"
+  ],
+  [
+   162.26952,
+   83.32903,
+   0.95,
+   "PTH"
+  ],
+  [
+   121.336,
+   56.766,
+   1.0,
+   "PTH"
+  ],
+  [
+   121.336,
+   59.306,
+   1.0,
+   "PTH"
+  ],
+  [
+   118.796,
+   56.766,
+   1.0,
+   "PTH"
+  ],
+  [
+   118.796,
+   59.306,
+   1.0,
+   "PTH"
+  ],
+  [
+   116.256,
+   56.766,
+   1.0,
+   "PTH"
+  ],
+  [
+   116.256,
+   59.306,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.627,
+   69.52,
+   1.0,
+   "PTH"
+  ],
+  [
+   166.167,
+   69.52,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.627,
+   72.06,
+   1.0,
+   "PTH"
+  ],
+  [
+   166.167,
+   72.06,
+   1.0,
+   "PTH"
+  ],
+  [
+   163.627,
+   74.6,
+   1.0,
+   "PTH"
+  ],
+  [
+   166.167,
+   74.6,
+   1.0,
+   "PTH"
+  ],
+  [
+   147.2,
+   56.8,
+   0.35,
+   "PTH"
+  ],
+  [
+   153.8,
+   51.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   144.8,
+   47.7,
+   0.35,
+   "PTH"
+  ],
+  [
+   182.6,
+   37.5,
+   0.35,
+   "PTH"
+  ],
+  [
+   196.7,
+   64.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   193.5,
+   63.6,
+   0.35,
+   "PTH"
+  ],
+  [
+   175.1,
+   64.2,
+   0.35,
+   "PTH"
+  ],
+  [
+   186.9,
+   63.6,
+   0.35,
+   "PTH"
+  ],
+  [
+   175.9,
+   104.2,
+   0.35,
+   "PTH"
+  ],
+  [
+   173.9,
+   62.4,
+   0.35,
+   "PTH"
+  ],
+  [
+   160.2,
+   67.2,
+   0.35,
+   "PTH"
+  ],
+  [
+   196.4,
+   89.9,
+   0.35,
+   "PTH"
+  ],
+  [
+   194.0,
+   64.5,
+   0.35,
+   "PTH"
+  ],
+  [
+   196.4,
+   65.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   182.0,
+   62.1,
+   0.35,
+   "PTH"
+  ],
+  [
+   159.7,
+   66.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   182.5,
+   103.1,
+   0.35,
+   "PTH"
+  ],
+  [
+   173.9,
+   59.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   162.5,
+   80.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   175.9,
+   94.8,
+   0.35,
+   "PTH"
+  ],
+  [
+   187.4,
+   67.8,
+   0.35,
+   "PTH"
+  ],
+  [
+   184.8,
+   70.4,
+   0.35,
+   "PTH"
+  ],
+  [
+   184.8,
+   78.0,
+   0.35,
+   "PTH"
+  ],
+  [
+   184.8,
+   75.5,
+   0.35,
+   "PTH"
+  ],
+  [
+   187.4,
+   65.3,
+   0.35,
+   "PTH"
+  ],
+  [
+   184.8,
+   72.9,
+   0.35,
+   "PTH"
+  ],
+  [
+   179.9,
+   62.4,
+   0.35,
+   "PTH"
+  ],
+  [
+   177.4,
+   72.9,
+   0.35,
+   "PTH"
+  ],
+  [
+   177.4,
+   78.0,
+   0.35,
+   "PTH"
+  ],
+  [
+   177.4,
+   70.4,
+   0.35,
+   "PTH"
+  ],
+  [
+   173.1,
+   64.8,
+   0.35,
+   "PTH"
+  ],
+  [
+   177.4,
+   75.5,
+   0.35,
+   "PTH"
+  ],
+  [
+   174.8,
+   67.8,
+   0.35,
+   "PTH"
+  ],
+  [
+   187.1,
+   59.0,
+   0.35,
+   "PTH"
+  ],
+  [
+   181.75,
+   57.11,
+   0.35,
+   "PTH"
+  ],
+  [
+   177.075,
+   52.81,
+   0.35,
+   "PTH"
+  ],
+  [
+   181.75,
+   51.51,
+   0.35,
+   "PTH"
+  ],
+  [
+   174.1,
+   103.5,
+   0.35,
+   "PTH"
+  ],
+  [
+   173.6,
+   65.7,
+   0.35,
+   "PTH"
+  ],
+  [
+   168.6,
+   65.7,
+   0.35,
+   "PTH"
+  ]
+ ],
+ "vias": 40,
+ "tracks": [
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "B.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu",
+  "F.Cu"
+ ],
+ "silk": [
+  {
+   "text": "TP82 SDA1",
+   "xy": [
+    170.0,
+    84.4
+   ]
+  },
+  {
+   "text": "OFF",
+   "xy": [
+    117.78,
+    111.55
+   ]
+  },
+  {
+   "text": "H9",
+   "xy": [
+    193.5,
+    85.8
+   ]
+  },
+  {
+   "text": "J6 WiFi",
+   "xy": [
+    112.9,
+    104.0
+   ]
+  },
+  {
+   "text": "D6",
+   "xy": [
+    148.26,
+    35.3
+   ]
+  },
+  {
+   "text": "RESET",
+   "xy": [
+    200.7,
+    99.16
+   ]
+  },
+  {
+   "text": "AREF",
+   "xy": [
+    123.876,
+    35.3
+   ]
+  },
+  {
+   "text": "TB1",
+   "xy": [
+    132.0,
+    43.15
+   ]
+  },
+  {
+   "text": "COPI",
+   "xy": [
+    200.7,
+    73.82
+   ]
+  },
+  {
+   "text": "D2",
+   "xy": [
+    158.42,
+    35.3
+   ]
+  },
+  {
+   "text": "SWDIO",
+   "xy": [
+    200.7,
+    89.0
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    78.9
+   ]
+  },
+  {
+   "text": "D11",
+   "xy": [
+    134.036,
+    35.3
+   ]
+  },
+  {
+   "text": "D12",
+   "xy": [
+    131.496,
+    35.3
+   ]
+  },
+  {
+   "text": "J5  ICSP",
+   "xy": [
+    180.0,
+    66.8
+   ]
+  },
+  {
+   "text": "J17",
+   "xy": [
+    124.3,
+    58.1
+   ]
+  },
+  {
+   "text": "TP83 SCL1",
+   "xy": [
+    169.5,
+    80.8
+   ]
+  },
+  {
+   "text": "TB9",
+   "xy": [
+    209.0,
+    85.5
+   ]
+  },
+  {
+   "text": "A4/SDA",
+   "xy": [
+    160.96,
+    110.6
+   ]
+  },
+  {
+   "text": "TX/D1",
+   "xy": [
+    160.96,
+    35.3
+   ]
+  },
+  {
+   "text": "PIN 1",
+   "xy": [
+    176.7,
+    104.5
+   ]
+  },
+  {
+   "text": "J19",
+   "xy": [
+    173.2,
+    54.0
+   ]
+  },
+  {
+   "text": "D13",
+   "xy": [
+    128.956,
+    35.3
+   ]
+  },
+  {
+   "text": "VRTC",
+   "xy": [
+    122.86,
+    111.55
+   ]
+  },
+  {
+   "text": "3V3",
+   "xy": [
+    135.56,
+    110.6
+   ]
+  },
+  {
+   "text": "TB3",
+   "xy": [
+    139.0,
+    103.8
+   ]
+  },
+  {
+   "text": "D7",
+   "xy": [
+    145.72,
+    35.3
+   ]
+  },
+  {
+   "text": "1",
+   "xy": [
+    175.5,
+    41.6
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    36.58
+   ]
+  },
+  {
+   "text": "D3",
+   "xy": [
+    155.88,
+    35.3
+   ]
+  },
+  {
+   "text": "3.3 V ONLY",
+   "xy": [
+    181.4,
+    60.0
+   ]
+  },
+  {
+   "text": "J7  ESP / WiFi",
+   "xy": [
+    181.4,
+    29.3
+   ]
+  },
+  {
+   "text": "SOCKET BELOW",
+   "xy": [
+    180.0,
+    76.0
+   ]
+  },
+  {
+   "text": "RXD0",
+   "xy": [
+    200.7,
+    39.12
+   ]
+  },
+  {
+   "text": "BOOT",
+   "xy": [
+    127.94,
+    110.6
+   ]
+  },
+  {
+   "text": "TB2",
+   "xy": [
+    155.0,
+    43.15
+   ]
+  },
+  {
+   "text": "TXD0",
+   "xy": [
+    200.7,
+    41.66
+   ]
+  },
+  {
+   "text": "TB8",
+   "xy": [
+    209.0,
+    47.2
+   ]
+  },
+  {
+   "text": "UNO R4  /  BREAKOUT",
+   "xy": [
+    191.0,
+    116.1
+   ]
+  },
+  {
+   "text": "NC",
+   "xy": [
+    200.7,
+    94.08
+   ]
+  },
+  {
+   "text": "VIN",
+   "xy": [
+    145.72,
+    110.6
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    109.32
+   ]
+  },
+  {
+   "text": "IO41",
+   "xy": [
+    200.7,
+    31.5
+   ]
+  },
+  {
+   "text": "VT/5V",
+   "xy": [
+    200.7,
+    111.86
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    101.7
+   ]
+  },
+  {
+   "text": "J9  SWD / Minima",
+   "xy": [
+    181.4,
+    87.8
+   ]
+  },
+  {
+   "text": "ESP PICKUP",
+   "xy": [
+    119.0,
+    62.45
+   ]
+  },
+  {
+   "text": "IOREF",
+   "xy": [
+    130.48,
+    110.6
+   ]
+  },
+  {
+   "text": "TX1",
+   "xy": [
+    200.7,
+    96.62
+   ]
+  },
+  {
+   "text": "TB7",
+   "xy": [
+    209.0,
+    28.2
+   ]
+  },
+  {
+   "text": "3.3 V LOGIC",
+   "xy": [
+    181.4,
+    44.3
+   ]
+  },
+  {
+   "text": "IO42",
+   "xy": [
+    200.7,
+    44.2
+   ]
+  },
+  {
+   "text": "RESET",
+   "xy": [
+    133.02,
+    110.6
+   ]
+  },
+  {
+   "text": "A5/SCL",
+   "xy": [
+    163.5,
+    110.6
+   ]
+  },
+  {
+   "text": "A0/DAC",
+   "xy": [
+    150.8,
+    110.6
+   ]
+  },
+  {
+   "text": "H4",
+   "xy": [
+    153.5,
+    103.8
+   ]
+  },
+  {
+   "text": "H8",
+   "xy": [
+    193.5,
+    47.5
+   ]
+  },
+  {
+   "text": "RX/D0",
+   "xy": [
+    163.5,
+    35.3
+   ]
+  },
+  {
+   "text": "5V",
+   "xy": [
+    200.7,
+    68.74
+   ]
+  },
+  {
+   "text": "GREEN SHOE GARAGE    \u2022    REV B",
+   "xy": [
+    188.0,
+    119.3
+   ]
+  },
+  {
+   "text": "J4  ANALOG",
+   "xy": [
+    157.2,
+    101.7
+   ]
+  },
+  {
+   "text": "D10",
+   "xy": [
+    136.576,
+    35.3
+   ]
+  },
+  {
+   "text": "A3",
+   "xy": [
+    158.42,
+    110.6
+   ]
+  },
+  {
+   "text": "SCL1",
+   "xy": [
+    200.7,
+    58.12
+   ]
+  },
+  {
+   "text": "SDA",
+   "xy": [
+    121.336,
+    35.3
+   ]
+  },
+  {
+   "text": "SWCLK",
+   "xy": [
+    200.7,
+    91.54
+   ]
+  },
+  {
+   "text": "J16",
+   "xy": [
+    120.3,
+    94.35
+   ]
+  },
+  {
+   "text": "D8",
+   "xy": [
+    141.656,
+    35.3
+   ]
+  },
+  {
+   "text": "D4",
+   "xy": [
+    153.34,
+    35.3
+   ]
+  },
+  {
+   "text": "H5",
+   "xy": [
+    193.5,
+    63.2
+   ]
+  },
+  {
+   "text": "J8  QWIIC / WiFi",
+   "xy": [
+    181.4,
+    48.5
+   ]
+  },
+  {
+   "text": "D5",
+   "xy": [
+    150.8,
+    35.3
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    143.18,
+    110.6
+   ]
+  },
+  {
+   "text": "TP81 3V3",
+   "xy": [
+    170.0,
+    89.6
+   ]
+  },
+  {
+   "text": "RX1",
+   "xy": [
+    200.7,
+    104.24
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    126.416,
+    35.3
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    120.32,
+    111.55
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    50.5
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    140.64,
+    110.6
+   ]
+  },
+  {
+   "text": "J2  D0-D7",
+   "xy": [
+    154.5,
+    46.0
+   ]
+  },
+  {
+   "text": "H1",
+   "xy": [
+    116.0,
+    42.9
+   ]
+  },
+  {
+   "text": "MINIMA RISER",
+   "xy": [
+    143.0,
+    59.3
+   ]
+  },
+  {
+   "text": "GND",
+   "xy": [
+    200.7,
+    106.78
+   ]
+  },
+  {
+   "text": "H6",
+   "xy": [
+    114.5,
+    108.0
+   ]
+  },
+  {
+   "text": "BUILD:  WIFI / MINIMA",
+   "xy": [
+    141.0,
+    55.4
+   ]
+  },
+  {
+   "text": "3V3",
+   "xy": [
+    200.7,
+    53.04
+   ]
+  },
+  {
+   "text": "5V",
+   "xy": [
+    138.1,
+    110.6
+   ]
+  },
+  {
+   "text": "H7",
+   "xy": [
+    193.5,
+    28.5
+   ]
+  },
+  {
+   "text": "SDA1",
+   "xy": [
+    200.7,
+    55.58
+   ]
+  },
+  {
+   "text": "IO0/DL",
+   "xy": [
+    200.7,
+    34.04
+   ]
+  },
+  {
+   "text": "J20",
+   "xy": [
+    150.7,
+    64.2
+   ]
+  },
+  {
+   "text": "R81",
+   "xy": [
+    183.0,
+    61.6
+   ]
+  },
+  {
+   "text": "TB6",
+   "xy": [
+    120.0,
+    120.95
+   ]
+  },
+  {
+   "text": "H2",
+   "xy": [
+    145.5,
+    43.2
+   ]
+  },
+  {
+   "text": "A1",
+   "xy": [
+    153.34,
+    110.6
+   ]
+  },
+  {
+   "text": "RESET",
+   "xy": [
+    200.7,
+    76.36
+   ]
+  },
+  {
+   "text": "CIPO",
+   "xy": [
+    200.7,
+    66.2
+   ]
+  },
+  {
+   "text": "QWIIC PROBES",
+   "xy": [
+    176.0,
+    82.5
+   ]
+  },
+  {
+   "text": "J3  POWER",
+   "xy": [
+    137.0,
+    101.7
+   ]
+  },
+  {
+   "text": "SCL",
+   "xy": [
+    118.796,
+    35.3
+   ]
+  },
+  {
+   "text": "J1  D8-D13 / I2C",
+   "xy": [
+    130.2,
+    46.0
+   ]
+  },
+  {
+   "text": "TB5",
+   "xy": [
+    209.0,
+    62.9
+   ]
+  },
+  {
+   "text": "A2",
+   "xy": [
+    155.88,
+    110.6
+   ]
+  },
+  {
+   "text": "H3",
+   "xy": [
+    131.0,
+    103.8
+   ]
+  },
+  {
+   "text": "SCK",
+   "xy": [
+    200.7,
+    71.28
+   ]
+  },
+  {
+   "text": "TB4",
+   "xy": [
+    160.0,
+    103.8
+   ]
+  },
+  {
+   "text": "D9",
+   "xy": [
+    139.116,
+    35.3
+   ]
+  }
+ ]
+}

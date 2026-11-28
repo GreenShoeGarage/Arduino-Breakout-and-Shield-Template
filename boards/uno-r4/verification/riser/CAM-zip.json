@@ -1,0 +1,160 @@
+{
+  "checker_version": 2,
+  "counts": {
+    "copper_layer_files": 2,
+    "drill_coordinate_records": 20,
+    "drill_files": 1,
+    "errors": 0,
+    "files": 8,
+    "gerber_files": 7,
+    "warnings": 1
+  },
+  "declared_hole_free": false,
+  "errors": [],
+  "fabrication_profile": "oshpark",
+  "files": [
+    {
+      "aperture_definition_count": 6,
+      "bytes": 2937,
+      "coordinate_command_count": 56,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Copper,L2,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-B_Cu.gbl",
+      "role": "B.Cu",
+      "sha256": "131c13ab2e7c3a75faf1b614552aa0489192ebbabfb7bdbe452b1333428f0001",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 4,
+      "bytes": 1153,
+      "coordinate_command_count": 20,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Soldermask,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-B_Mask.gbs",
+      "role": "B.Mask",
+      "sha256": "55481787b330bc818e75cfb9aac6a8413a3e5ae516295c120c79a7204d423168",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 0,
+      "bytes": 474,
+      "coordinate_command_count": 0,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Legend,Bot",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-B_Silkscreen.gbo",
+      "role": "B.Silkscreen",
+      "sha256": "b3dd27b918ce3430b40066faa2b17c6c02953a9413f344599b90d113ba05bf9b",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 1,
+      "bytes": 1053,
+      "coordinate_command_count": 22,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Profile,NP",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-Edge_Cuts.gm1",
+      "role": "Edge.Cuts",
+      "sha256": "ec2034dceb2646e4957af5db75503df7ec9ad37137f1c56c8e69d2aef952b93a",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 5,
+      "bytes": 3291,
+      "coordinate_command_count": 70,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Copper,L1,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-F_Cu.gtl",
+      "role": "F.Cu",
+      "sha256": "48d08a8d784d7324cefc5af7923eb03eb3205d2db4a61f234e7627ebd06fdd15",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 4,
+      "bytes": 1153,
+      "coordinate_command_count": 20,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Soldermask,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-F_Mask.gts",
+      "role": "F.Mask",
+      "sha256": "05e3b5fa2e24cc431d6714b926a74b3ffc4d911c2961e6721831a59b589b40e5",
+      "units": "mm"
+    },
+    {
+      "aperture_definition_count": 2,
+      "bytes": 4050,
+      "coordinate_command_count": 140,
+      "coordinate_format": {
+        "x": "46",
+        "y": "46",
+        "zero_omission": "L"
+      },
+      "file_function": "Legend,Top",
+      "kind": "gerber",
+      "name": "UNO-R4-SWD-Riser-F_Silkscreen.gto",
+      "role": "F.Silkscreen",
+      "sha256": "3f59b48c78f8f1368f4ac91bda1345e020bd1ef377bbd937b6abe14e88f6c368",
+      "units": "mm"
+    },
+    {
+      "bytes": 685,
+      "coordinate_record_count": 20,
+      "kind": "excellon",
+      "name": "UNO-R4-SWD-Riser-PTH.drl",
+      "plating": "PTH",
+      "role": "drill",
+      "sha256": "f99da05ef36a794ce036a6a86100693f2de197458283399323761737981f2292",
+      "slot_record_count": 0,
+      "tool_count": 2,
+      "units": "mm"
+    }
+  ],
+  "layer_count_meaning": "fabricated copper layers",
+  "manual_checks_required": [
+    "Reopen the final ZIP in a CAM viewer; inspect every layer and drill overlay.",
+    "Verify board outline closure, cutouts, slots, polarity, dimensions, and layer order.",
+    "Verify the selected OSH Park service rules with current official documentation.",
+    "Check saved, zone-filled source with ERC, DRC, schematic parity, and electrical review.",
+    "Inspect the actual OSH Park upload preview before authorizing fabrication."
+  ],
+  "requested_copper_layers": 2,
+  "scope": "Structural packaging checks only. No geometry, dimensions, alignment, connectivity, design-rule, manufacturability, or electrical-function validation.",
+  "source": "/workspace/scratch/5bcafcbb870a/revb/riser/UNO-R4-Minima-SWD-Riser-RevB-OSH-Park.zip",
+  "status": "structural_pass",
+  "warnings": [
+    {
+      "code": "empty_layer",
+      "file": "UNO-R4-SWD-Riser-B_Silkscreen.gbo",
+      "message": "Layer has no coordinate drawing commands; confirm intentional empty content."
+    }
+  ]
+}

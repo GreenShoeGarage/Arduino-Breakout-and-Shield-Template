@@ -1,13 +1,13 @@
 {
   "archive_is_supplier_upload": false,
   "assumptions": [
-    "Bare host without the original plastic base.",
-    "PETG on an FDM printer as a fit prototype.",
-    "Original Rev A mating headers; use adjustment nuts to match measured stack height."
+    "Bare Arduino board without plastic base.",
+    "11.80 mm precision locator shoulder.",
+    "Mark the assembled carrier WiFi or Minima."
   ],
   "checks": {
     "drawing": {
-      "evidence": "All 3 pages were rendered and reviewed. Hole positions, access windows, heights, selected fasteners and U1 offset are noted.",
+      "evidence": "Four-page assembly guide, dimensioned stack and pin examples.",
       "status": "pass"
     },
     "export_consistency": {
@@ -27,7 +27,7 @@
       "status": "pass"
     },
     "units_revision": {
-      "evidence": "Each released geometry uses mm and revision A. Base and bezel both lie on print Z=0.",
+      "evidence": "Shell Rev A, stack hardware Rev B. All mechanical dimensions in mm.",
       "status": "pass"
     }
   },
@@ -38,8 +38,18 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "dea53c385d13345be2db5622e1b6d0a00bddbd60489bdbe349c708436595404c",
-      "size_bytes": 5190
+      "sha256": "fcf8a37b8ec1c4e6db3748e567620a35cfca26ce2d12927f8f8432aaccabd1ed",
+      "size_bytes": 5887
+    },
+    {
+      "path": "cad/Locating-Spacer-Diamond.step",
+      "sha256": "84924806ff7fd106787f05d540b1872889c5f37c53bd34dcceebee934404398c",
+      "size_bytes": 44873
+    },
+    {
+      "path": "cad/Locating-Spacer-Round.step",
+      "sha256": "ea2e2903a31e0aff4e2e3f8b0582f196b04ea398d6d7a084e2bfdfde54ab3b06",
+      "size_bytes": 17092
     },
     {
       "path": "cad/UNO-R4-Stack-Base.step",
@@ -67,6 +77,11 @@
       "size_bytes": 1423
     },
     {
+      "path": "checks/direct-stack-fit.json",
+      "sha256": "5ba523333f1d0ecb7a3b22221ec2e88502a3ec7bb4c08a062a2b33da0e85b402",
+      "size_bytes": 2200
+    },
+    {
       "path": "checks/print-sections.json",
       "sha256": "71f86824624f02395f612612eafd8306729b98661df9db4482031a2c59a9e475",
       "size_bytes": 742
@@ -78,8 +93,18 @@
     },
     {
       "path": "drawings/UNO-R4-Stack-Assembly.pdf",
-      "sha256": "b238af439acbeb31b630641c11a32f9eff0e63598b56a536864ffa0903985c30",
-      "size_bytes": 2838231
+      "sha256": "9a8c64c82c6224b3fc4f4a01490a05a9352301730ef2867e41da34c6c6012c2f",
+      "size_bytes": 869192
+    },
+    {
+      "path": "fabrication/Locating-Spacer-Diamond.stl",
+      "sha256": "9e67d26ae61adef32098c0d8d1e5a44fdf9022f1fd184786bcd0501049e46517",
+      "size_bytes": 87684
+    },
+    {
+      "path": "fabrication/Locating-Spacer-Round.stl",
+      "sha256": "3e26fc828fded83325098aee379902654257ccfb500098c2ddb1ebb9c9d9f9c2",
+      "size_bytes": 100884
     },
     {
       "path": "fabrication/UNO-R4-Stack-Base.stl",
@@ -103,8 +128,8 @@
     },
     {
       "path": "release.json",
-      "sha256": "edea07df6f97f360437b1e12de1e60a6f7d28005f8318493360ff1a1f3b21a3b",
-      "size_bytes": 2426
+      "sha256": "fc5c3f08159ce684e48d4829cecc653f9632089899c2d216d33037c8f3458e5e",
+      "size_bytes": 2491
     },
     {
       "path": "setup/machine-setup.json",
@@ -133,13 +158,18 @@
     },
     {
       "path": "source/interfaces.json",
-      "sha256": "38ea73493715f0856bb7bb38bf1375926ef81978f050bc08664341f6213d9a91",
-      "size_bytes": 50743
+      "sha256": "2fd816ac2fed638d77c8379bec3cf17e3fa660fdcb63ab1bd558a481c5ff50d6",
+      "size_bytes": 71733
+    },
+    {
+      "path": "source/spacers.py",
+      "sha256": "ec222bfec88b6893718874e732f7447330e6afd1da9f75e79f9008c671a2be1f",
+      "size_bytes": 1078
     },
     {
       "path": "specification.json",
-      "sha256": "cd0ed927df00fad9d3972c67c246654b4b112de795fc9165b32f68a778637af2",
-      "size_bytes": 1344
+      "sha256": "5274e1a860929fc4156027dbf5fff0c3747fe8d22a2e74e908f4c8f85b3f6bf6",
+      "size_bytes": 1612
     }
   ],
   "geometry_report": "checks/release-geometry.json",
@@ -184,7 +214,7 @@
   "primary_upload": "fabrication/UNO-R4-Stack-Base.stl",
   "process": "3d_printing",
   "release_notice": "Concept package; unresolved checks or assumptions may remain. No fabrication readiness is claimed.",
-  "revision": "A",
+  "revision": "B assembly / A shell",
   "schema_version": 2,
   "status": "concept",
   "supplier": "In-house",
@@ -197,5 +227,10 @@
       "evidence": "H2S 340 x 320 x 340 mm published build volume.",
       "url": "https://store.bblcdn.com/s7/default/3f91ec86de1a4ce28fe8fb660b95cd3e/h2s.pdf"
     }
+  ],
+  "direct_stack_check": "checks/direct-stack-fit.json",
+  "locating_spacers": [
+    "fabrication/Locating-Spacer-Round.stl",
+    "fabrication/Locating-Spacer-Diamond.stl"
   ]
 }

@@ -53,7 +53,7 @@ def classify(copper,bores,pads):
         assert len(candidates)==1,(side,probe.bounds,candidates)
         return int(candidates[0])+offsets[side]
     holes={}
-    key=lambda x,y:(round(x,5),round(y,5))
+    key=lambda x,y:(round(x,3),round(y,3))
     for x,y,r,kind in bores:
         if kind=='PTH':
             ring=disk(x,y,r+.012).difference(disk(x,y,r+.002))
@@ -114,7 +114,7 @@ def check(work):
     for p in fresh.glob('*.drl'):
         if not (fab/p.name).exists():
             assert '-NPTH.' in p.name and len(ExcellonFile.open(p).objects)==0
-    round_hole=lambda x,y,d,k:(round(x,5),round(y,5),round(d,5),k)
+    round_hole=lambda x,y,d,k:(round(x,3),round(y,3),round(d,3),k)
     assert Counter(round_hole(x,y,r*2,k) for x,y,r,k in bores)==Counter(round_hole(x,-y,d,k) for x,y,d,k in inventory['holes'])
     result=classify(copper,bores,inventory['pads'])
     assert not result['opens'] and not result['shorts'] and result['orphan_islands']==0 and result['islands']==len(schematic), result

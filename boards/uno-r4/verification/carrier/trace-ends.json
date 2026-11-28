@@ -1,0 +1,9 @@
+{
+  "checked": 824,
+  "counts": {
+    "on_pad": 405,
+    "on_via": 87,
+    "on_other_track": 332
+  },
+  "dangling": 0
+}
